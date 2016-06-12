@@ -783,8 +783,8 @@ header p {
 }
 #banner #logo {
   position: absolute;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   right: 7px;
   top: 7px;
   display: block;
