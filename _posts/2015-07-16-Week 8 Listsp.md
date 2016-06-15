@@ -37,6 +37,7 @@ Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53)
 ```
 
 ---
+
 ## 2. Lists and definite loops 
 
 - List constants are surrounded by square brackets and the elements in the list are separated by commas.
@@ -82,6 +83,7 @@ Glenn
 
 
 ---
+
 ## 4. List mutability 
 
 - Strings are "immutable" - we cannot change the contents of a string - we must make a new string to make any change
@@ -104,6 +106,7 @@ banana
 ```
 
 ---
+
 ## 5. Functions: len, min, max, sum 
 
 - The len() function takes a list as a parameter and returns the number of elements in the list
@@ -121,18 +124,23 @@ banana
 
 
 ---
+
 ## 6. Slicing lists 
 
 ---
+
 ## 7. List methods: append, remove 
 
 ---
+
 ## 8. Sorting lists 
 
 ---
+
 ## 9. Splitting strings into lists of words 
 
 ---
+
 ## 10. Using split to parse strings
 
 
