@@ -5,7 +5,7 @@
 
 标签（空格分隔）： python
 ----------
-###1. Conditional Steps
+### 1. Conditional Steps
 ```flow
 st=>start: x=5
 e=>end: print 'finis'
@@ -21,7 +21,7 @@ cond2(no)->e
 ```
 
 ----------
-###2. Comparison Operators
+### 2. Comparison Operators
 
     <     less than
     <=	  less than or equal
@@ -52,7 +52,7 @@ Or change the editor setting
                 
 ----------
 ### 5. One Way Decisions
-####流程图如下
+#### 流程图如下
 ```flow
 st=>start: x=5
 e=>end: print 'Afterwards 5'
@@ -65,7 +65,7 @@ st->op4->cond1->e
 cond1(yes)->op1->op2->op3->e
 cond1(no)->e
 ```
-####代码如下：
+#### 代码如下：
 ```
     x = 5
 	print 'Before 5’
@@ -76,7 +76,7 @@ cond1(no)->e
 	print 'Afterwards 5’
 ```
 
-####显示结果如下：
+#### 显示结果如下：
 
     Before 5
 	Is 5
@@ -87,7 +87,7 @@ cond1(no)->e
 ----------
 
 ### 6. Two way Decisions  if :  and else :
-####流程图如下：
+#### 流程图如下：
 ```flow
 st=>start: x=4
 e=>end: print 'All Done'
@@ -98,7 +98,7 @@ st->cond1
 cond1(yes)->op2->e
 cond1(no)->op1->e
 ```
-####代码如下：
+#### 代码如下：
 ```
     x=4
     if x>2:
@@ -111,7 +111,7 @@ cond1(no)->op1->e
 
 
 ### 7. Nested Decisions(嵌套)
-####流程图如下：
+#### 流程图如下：
 ```flow
 st=>start: start
 e=>end: end
@@ -127,7 +127,7 @@ cond2(yes)->op2->e
 cond2(no)->e
 
 ```
-####代码如下：
+#### 代码如下：
 ```
     x = 42
 
@@ -143,7 +143,7 @@ cond2(no)->e
 
 
 ### 8. Multiway decisions using elif
-####流程图如下；
+#### 流程图如下；
 ```flow
 st=>start: start
 cond1=>condition: x<2
@@ -169,7 +169,7 @@ cond3(no)->cond4
 cond4(no)->cond5
 cond5(no)->op6->e
 ```
-####代码如下：
+#### 代码如下：
 ```
     if x < 2 :
 	    print 'Small'
