@@ -208,6 +208,9 @@ compress_html:
     envs: development
 
 
+paginate: 5
+paginate_path: "page:num"
+
 defaults:
   # _posts
   - scope:
