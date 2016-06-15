@@ -1,4 +1,5 @@
-﻿# Week 1 Why Program?
+﻿
+# Week 1 Why Program?
 
 [toc]
 
