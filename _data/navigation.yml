@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Home"
+    url: https://arecrui.github.io/
+
   - title: "About me"
     url: 
 
