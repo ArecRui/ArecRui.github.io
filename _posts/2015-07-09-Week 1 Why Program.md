@@ -1,4 +1,9 @@
-﻿{% include toc %}
+﻿
+---
+
+{% include toc %}
+
+---
 
 # Week 1 Why Program?
 
