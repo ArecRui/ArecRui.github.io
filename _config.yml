@@ -130,7 +130,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
+lsi: true
 excerpt_separator: "\n\n"
 incremental: false
 
@@ -138,13 +138,13 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
-  hard_wrap: false
+  hard_wrap: true
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  enable_coderay: true
 
 
 # Outputting
@@ -220,3 +220,8 @@ defaults:
       comments: true
       share: true
       related: true
+      
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
