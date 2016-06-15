@@ -82,8 +82,8 @@ cond1(no)->e
 
 #### 5.2 代码如下：
 
-
-```python
+{% highlight python linenos %}
+```
     x = 5
 	print 'Before 5’
 	if  x == 5 :
@@ -92,7 +92,7 @@ cond1(no)->e
 	    print 'Third 5’
 	print 'Afterwards 5’
 ```
-
+{% endhighlight %}
 
 #### 5.3 显示结果如下：
 
