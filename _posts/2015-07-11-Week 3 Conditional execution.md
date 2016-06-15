@@ -1,5 +1,7 @@
-﻿# Week 3 Conditional execution
-[TOC]
+﻿{% include toc %}
+
+# Week 3 Conditional execution
+
 
 标签（空格分隔）： python
 ----------
