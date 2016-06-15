@@ -3,7 +3,7 @@
 # Week 1 Why Program?
 
 
-标签（空格分隔）： python
+标签： python
 
 # 第一周
 ## 欢迎用Python
