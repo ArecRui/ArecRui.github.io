@@ -1,6 +1,7 @@
 ﻿---
 
 {% include toc %}
+{{ page.excerpt | markdownify }}
 
 ---
 
