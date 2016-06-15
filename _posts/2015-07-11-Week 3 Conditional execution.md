@@ -1,11 +1,18 @@
-﻿{% include toc %}
+﻿---
+
+{% include toc %}
+
+---
 
 # Week 3 Conditional execution
 
 
 标签（空格分隔）： python
+
 ----------
+
 ### 1. Conditional Steps
+
 ```flow
 st=>start: x=5
 e=>end: print 'finis'
@@ -38,8 +45,6 @@ cond2(no)->e
 
 
 ----------
-
-
 ### 4. Indentation
 `Indentation` **DO** `matter in python.`
 1. **Increase indent** after an if statement or for statement (after : )
@@ -53,6 +58,7 @@ Or change the editor setting
 ----------
 ### 5. One Way Decisions
 #### 流程图如下
+
 ```flow
 st=>start: x=5
 e=>end: print 'Afterwards 5'
@@ -66,6 +72,7 @@ cond1(yes)->op1->op2->op3->e
 cond1(no)->e
 ```
 #### 代码如下：
+
 ```
     x = 5
 	print 'Before 5’
