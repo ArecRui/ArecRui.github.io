@@ -1,5 +1,7 @@
-﻿# Week 2 expressions
-[toc]
+﻿{% include toc %}
+
+# Week 2 expressions
+
 
 标签（空格分隔）： python
 
