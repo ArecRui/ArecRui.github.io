@@ -28,6 +28,7 @@ cond2(no)->e
 ```
 
 ----------
+
 ### 2. Comparison Operators
 
     <     less than
@@ -41,10 +42,12 @@ cond2(no)->e
 3. **Comparison operators** look at variables but **do not** change the variables
 
 ----------  
+
 ### 3. Logical operators: and or not
 
 
 ----------
+
 ### 4. Indentation
 `Indentation` **DO** `matter in python.`
 1. **Increase indent** after an if statement or for statement (after : )
@@ -56,6 +59,7 @@ cond2(no)->e
 Or change the editor setting
                 
 ----------
+
 ### 5. One Way Decisions
 #### 流程图如下
 
@@ -114,8 +118,9 @@ cond1(no)->op1->e
 		print 'Smaller'
 	print 'All Done'
 ```
-----------
 
+
+----------
 
 ### 7. Nested Decisions(嵌套)
 #### 流程图如下：
@@ -146,11 +151,13 @@ cond2(no)->e
 	print 'All done'
 ```
 
+
 ----------
 
-
 ### 8. Multiway decisions using elif
-#### 流程图如下；
+
+#### 流程图如下:
+
 ```flow
 st=>start: start
 cond1=>condition: x<2
@@ -176,7 +183,9 @@ cond3(no)->cond4
 cond4(no)->cond5
 cond5(no)->op6->e
 ```
+
 #### 代码如下：
+
 ```
     if x < 2 :
 	    print 'Small'
@@ -191,6 +200,7 @@ cond5(no)->op6->e
 	else :
     print 'Ginormous'
 ```    
+
 #### Multi-way Puzzles-Which will never print?
 
 ```
@@ -212,15 +222,17 @@ elif x < 20 :
 else :
     print 'Something else'
 ```
-----------
 
+----------
 
 ### 9. Try / Except to compensate for errors
 
 1. You surround a dangerous section of code with **try and except**.
 2. If the code in the try **works** - the except is skipped
 3. If the code in the try **fails** - it jumps to the except section
+
 ####示例代码如下：
+
 ```
 rawstr = raw_input('Enter a number:')
 try: 
@@ -234,9 +246,13 @@ if ival > 0 :
 ```
 
 ----------
+
 ### 10. Exercise
-#### 3.1 
+
+#### Exercise 3.1 
+
 Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above40 hours.
+
 ```
 hours=raw_input("How many hours do you work per week?\n")
 try: 
@@ -259,7 +275,9 @@ except:
 if Hours <0 :
     print "Please enter numeric input!"
 ```
-#### 3.3 
+
+#### Exercise 3.3 
+
 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range print an error. If the score is between 0.0 and 1.0, print a grade using the following table:
 
 ```
