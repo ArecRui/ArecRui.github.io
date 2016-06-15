@@ -1,4 +1,5 @@
-﻿
+﻿{% include toc %}
+
 # Week 1 Why Program?
 
 [toc]
