@@ -1,8 +1,5 @@
 ﻿---
-
 {% include toc %}
-{{ page.excerpt | markdownify }}
-
 ---
 
 # Week 3 Conditional execution
