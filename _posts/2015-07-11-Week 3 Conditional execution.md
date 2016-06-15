@@ -37,6 +37,7 @@ cond2(no)->e
     >=    greater than or equal
     >     greater than 
     !=    not equal
+    
 1. **Boolean expressions** ask a question and produce a Yes or No result which we use to control program flow
 2. **Boolean expressions** using ***comparison operators***  evaluate to - **True / False** - **Yes / No**
 3. **Comparison operators** look at variables but **do not** change the variables
@@ -84,7 +85,7 @@ cond1(no)->e
 #### 5.2 代码如下：
 
 
-```
+```python
     x = 5
 	print 'Before 5’
 	if  x == 5 :
@@ -126,7 +127,7 @@ cond1(no)->op1->e
 
 #### 6.2 代码如下：
 
-```
+```python
     x=4
     if x>2:
 	    print 'Bigger'
@@ -160,7 +161,7 @@ cond2(no)->e
 
 #### 7.2 代码如下：
 
-```
+```python
     x = 42
 
 	if x > 1 :
@@ -206,7 +207,7 @@ cond5(no)->op6->e
 
 #### 8.2代码如下：
 
-```
+```python
     if x < 2 :
 	    print 'Small'
 	elif x < 10 :
@@ -223,7 +224,7 @@ cond5(no)->op6->e
 
 #### 8.3 Multi-way Puzzles-Which will never print?
 
-```
+```python
 if x < 2 :
     print 'Below 2'
 elif x >= 2 : 
@@ -232,7 +233,7 @@ elif x >= 2 :
     print 'Something else'** 
 ```
 
-```
+```python
 if x < 2 :
     print 'Below 2'
 elif x < 20 :
@@ -253,7 +254,7 @@ else :
 
 #### 9.1 示例代码如下：
 
-```
+```python
 rawstr = raw_input('Enter a number:')
 try: 
     ival = int(rawstr)
@@ -273,7 +274,7 @@ if ival > 0 :
 
 Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above40 hours.
 
-```
+```python
 hours=raw_input("How many hours do you work per week?\n")
 try: 
     Hours = float(hours)
@@ -300,7 +301,7 @@ if Hours <0 :
 
 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range print an error. If the score is between 0.0 and 1.0, print a grade using the following table:
 
-```
+```python
 score=raw_input("Please input the score!\n")
 try:
     Score = float(score)
