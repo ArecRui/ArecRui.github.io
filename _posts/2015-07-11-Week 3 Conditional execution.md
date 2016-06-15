@@ -63,7 +63,9 @@ Or change the editor setting
 
 ### 5. One Way Decisions
 
+
 #### 5.1 流程图如下
+
 
 ```flow
 st=>start: x=5
@@ -78,7 +80,9 @@ cond1(yes)->op1->op2->op3->e
 cond1(no)->e
 ```
 
+
 #### 5.2 代码如下：
+
 
 ```
     x = 5
@@ -90,7 +94,9 @@ cond1(no)->e
 	print 'Afterwards 5’
 ```
 
+
 #### 5.3 显示结果如下：
+
 
 ```
     Before 5
@@ -103,6 +109,7 @@ cond1(no)->e
 ----------
 
 ### 6. Two way Decisions  if :  and else :
+
 
 #### 6.1 流程图如下：
 
