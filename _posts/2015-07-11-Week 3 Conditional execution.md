@@ -49,6 +49,7 @@ cond2(no)->e
 ----------
 
 ### 4. Indentation
+
 `Indentation` **DO** `matter in python.`
 1. **Increase indent** after an if statement or for statement (after : )
 2. **Maintain indent** to indicate the scope of the block (which lines are affected by the if/for)
@@ -61,7 +62,8 @@ Or change the editor setting
 ----------
 
 ### 5. One Way Decisions
-#### 流程图如下
+
+#### 5.1 流程图如下
 
 ```flow
 st=>start: x=5
@@ -75,7 +77,8 @@ st->op4->cond1->e
 cond1(yes)->op1->op2->op3->e
 cond1(no)->e
 ```
-#### 代码如下：
+
+#### 5.2 代码如下：
 
 ```
     x = 5
@@ -87,18 +90,22 @@ cond1(no)->e
 	print 'Afterwards 5’
 ```
 
-#### 显示结果如下：
+#### 5.3 显示结果如下：
 
+```
     Before 5
 	Is 5
 	Is Still 5
 	Third 5
 	Afterwards 5
+```
 
 ----------
 
 ### 6. Two way Decisions  if :  and else :
-#### 流程图如下：
+
+#### 6.1 流程图如下：
+
 ```flow
 st=>start: x=4
 e=>end: print 'All Done'
@@ -109,7 +116,9 @@ st->cond1
 cond1(yes)->op2->e
 cond1(no)->op1->e
 ```
-#### 代码如下：
+
+#### 6.2 代码如下：
+
 ```
     x=4
     if x>2:
@@ -123,7 +132,9 @@ cond1(no)->op1->e
 ----------
 
 ### 7. Nested Decisions(嵌套)
-#### 流程图如下：
+
+#### 7.1 流程图如下：
+
 ```flow
 st=>start: start
 e=>end: end
@@ -139,7 +150,9 @@ cond2(yes)->op2->e
 cond2(no)->e
 
 ```
-#### 代码如下：
+
+#### 7.2 代码如下：
+
 ```
     x = 42
 
@@ -156,7 +169,7 @@ cond2(no)->e
 
 ### 8. Multiway decisions using elif
 
-#### 流程图如下:
+#### 8.1 流程图如下:
 
 ```flow
 st=>start: start
@@ -184,7 +197,7 @@ cond4(no)->cond5
 cond5(no)->op6->e
 ```
 
-#### 代码如下：
+#### 8.2代码如下：
 
 ```
     if x < 2 :
@@ -201,7 +214,7 @@ cond5(no)->op6->e
     print 'Ginormous'
 ```    
 
-#### Multi-way Puzzles-Which will never print?
+#### 8.3 Multi-way Puzzles-Which will never print?
 
 ```
 if x < 2 :
@@ -231,7 +244,7 @@ else :
 2. If the code in the try **works** - the except is skipped
 3. If the code in the try **fails** - it jumps to the except section
 
-####示例代码如下：
+#### 9.1 示例代码如下：
 
 ```
 rawstr = raw_input('Enter a number:')
@@ -249,7 +262,7 @@ if ival > 0 :
 
 ### 10. Exercise
 
-#### Exercise 3.1 
+#### 10.1 Exercise 3.1 
 
 Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above40 hours.
 
@@ -276,7 +289,7 @@ if Hours <0 :
     print "Please enter numeric input!"
 ```
 
-#### Exercise 3.3 
+#### 10.2 Exercise 3.3 
 
 Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range print an error. If the score is between 0.0 and 1.0, print a grade using the following table:
 
