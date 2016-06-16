@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T16:53:03+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;p&gt;﻿—&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T16:58:12+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;p&gt;﻿This course introduces the concept of collection/list etc.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
@@ -19,8 +22,6 @@
 &lt;/aside&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;This course introduces the concept of collection/list etc.&lt;br /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;concept-of-a-collection&quot;&gt;1. Concept of a collection&lt;/h2&gt;
 
@@ -157,63 +158,43 @@ banana
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/h2&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;h2 id=&quot;using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/h2&gt;</content><author><name>Liang Zerui</name></author><summary>﻿This course introduces the concept of collection/list etc.</summary></entry><entry><title>Week 7 files</title><link href="https://arecrui.github.io/Week-7-Files/" rel="alternate" type="text/html" title="Week 7 files" /><published>2015-07-15T00:00:00+08:00</published><updated>2015-07-15T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 7 Files</id><content type="html" xml:base="https://arecrui.github.io/Week-7-Files/">&lt;p&gt;﻿How to open &amp;amp; read &amp;amp; oprate a file.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-     On This Page
-
-  
-
-
-
-This course introduces the concept of collection/list etc.</summary></entry><entry><title>Week 7 files</title><link href="https://arecrui.github.io/Week-7-Files/" rel="alternate" type="text/html" title="Week 7 files" /><published>2015-07-15T00:00:00+08:00</published><updated>2015-07-15T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 7 Files</id><content type="html" xml:base="https://arecrui.github.io/Week-7-Files/">&lt;p&gt;﻿—&lt;/p&gt;
-
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#week7-files&quot; id=&quot;markdown-toc-week7-files&quot;&gt;Week7 Files&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#secondary-storage&quot; id=&quot;markdown-toc-secondary-storage&quot;&gt;1.Secondary storage&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#opening-a-file---file-handle&quot; id=&quot;markdown-toc-opening-a-file---file-handle&quot;&gt;2.Opening a file - file handle&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#using-open&quot; id=&quot;markdown-toc-using-open&quot;&gt;2.1 Using open()&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#when-files-are-missing&quot; id=&quot;markdown-toc-when-files-are-missing&quot;&gt;2.3 When files are missing&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#file-structure---newline-character&quot; id=&quot;markdown-toc-file-structure---newline-character&quot;&gt;3.File structure - newline character&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#reading-a-file-line-by-line-with-a-for-loop&quot; id=&quot;markdown-toc-reading-a-file-line-by-line-with-a-for-loop&quot;&gt;4.Reading a file line-by-line with a for loop&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#counting-lines-in-a-file&quot; id=&quot;markdown-toc-counting-lines-in-a-file&quot;&gt;4.1 Counting Lines in a File&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#reading-the-whole-file&quot; id=&quot;markdown-toc-reading-the-whole-file&quot;&gt;4.2 Reading the &lt;em&gt;Whole&lt;/em&gt; File&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#searching-for-lines&quot; id=&quot;markdown-toc-searching-for-lines&quot;&gt;5.Searching for lines&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#using-if-to-select&quot; id=&quot;markdown-toc-using-if-to-select&quot;&gt;5.1 using if to select&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#skipping-with-continue&quot; id=&quot;markdown-toc-skipping-with-continue&quot;&gt;5.2 Skipping with continue&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#using-in-to-select-lines&quot; id=&quot;markdown-toc-using-in-to-select-lines&quot;&gt;5.3 Using in to select lines&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#reading-file-names&quot; id=&quot;markdown-toc-reading-file-names&quot;&gt;6.Reading file names&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#dealing-with-bad-files&quot; id=&quot;markdown-toc-dealing-with-bad-files&quot;&gt;7.Dealing with bad files&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-open&quot; id=&quot;markdown-toc-using-open&quot;&gt;2.1 Using open()&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#when-files-are-missing&quot; id=&quot;markdown-toc-when-files-are-missing&quot;&gt;2.3 When files are missing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#file-structure---newline-character&quot; id=&quot;markdown-toc-file-structure---newline-character&quot;&gt;3.File structure - newline character&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reading-a-file-line-by-line-with-a-for-loop&quot; id=&quot;markdown-toc-reading-a-file-line-by-line-with-a-for-loop&quot;&gt;4.Reading a file line-by-line with a for loop&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#counting-lines-in-a-file&quot; id=&quot;markdown-toc-counting-lines-in-a-file&quot;&gt;4.1 Counting Lines in a File&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reading-the-whole-file&quot; id=&quot;markdown-toc-reading-the-whole-file&quot;&gt;4.2 Reading the &lt;em&gt;Whole&lt;/em&gt; File&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#searching-for-lines&quot; id=&quot;markdown-toc-searching-for-lines&quot;&gt;5.Searching for lines&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#using-if-to-select&quot; id=&quot;markdown-toc-using-if-to-select&quot;&gt;5.1 using if to select&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#skipping-with-continue&quot; id=&quot;markdown-toc-skipping-with-continue&quot;&gt;5.2 Skipping with continue&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#using-in-to-select-lines&quot; id=&quot;markdown-toc-using-in-to-select-lines&quot;&gt;5.3 Using in to select lines&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reading-file-names&quot; id=&quot;markdown-toc-reading-file-names&quot;&gt;6.Reading file names&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dealing-with-bad-files&quot; id=&quot;markdown-toc-dealing-with-bad-files&quot;&gt;7.Dealing with bad files&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;/nav&gt;
 &lt;/aside&gt;
 
 &lt;hr /&gt;
-
-&lt;h1 id=&quot;week7-files&quot;&gt;Week7 Files&lt;/h1&gt;
-
-&lt;p&gt;How to open &amp;amp; read &amp;amp; oprate a file.&lt;br /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;# Week7 Files&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;h2 id=&quot;secondary-storage&quot;&gt;1.Secondary storage&lt;/h2&gt;
+&lt;p&gt;## 1.Secondary storage&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;h2 id=&quot;opening-a-file---file-handle&quot;&gt;2.Opening a file - file handle&lt;/h2&gt;
+&lt;p&gt;## 2.Opening a file - file handle&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Before we can read the contents of the file we must tell Python which file we are going to work with and what we will be doing with the file&lt;/li&gt;
@@ -436,48 +417,30 @@ There were 1797 subject lines in mbox.txt
 
 Enter the file name: na na boo boo
 File cannot be opened: na na boo boo
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿How to open &amp;amp; read &amp;amp; oprate a file.</summary></entry><entry><title>Week 6 strings</title><link href="https://arecrui.github.io/Week-6-Strings/" rel="alternate" type="text/html" title="Week 6 strings" /><published>2015-07-14T00:00:00+08:00</published><updated>2015-07-14T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 6 Strings</id><content type="html" xml:base="https://arecrui.github.io/Week-6-Strings/">&lt;p&gt;﻿Basic string types and how read&amp;amp;convert it. Indexing, looping and slicing a string.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  Week7 Files
-
-
-  
-
-
-
-
-Week7 Files
-
-How to open &amp;amp; read &amp;amp; oprate a file.</summary></entry><entry><title>Week 6 strings</title><link href="https://arecrui.github.io/Week-6-Strings/" rel="alternate" type="text/html" title="Week 6 strings" /><published>2015-07-14T00:00:00+08:00</published><updated>2015-07-14T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 6 Strings</id><content type="html" xml:base="https://arecrui.github.io/Week-6-Strings/">&lt;p&gt;﻿—&lt;/p&gt;
-
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-6-strings&quot; id=&quot;markdown-toc-week-6-strings&quot;&gt;Week 6 Strings&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#string-type&quot; id=&quot;markdown-toc-string-type&quot;&gt;1.String type&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#readconvert&quot; id=&quot;markdown-toc-readconvert&quot;&gt;2.Read/Convert&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#indexing-strings-&quot; id=&quot;markdown-toc-indexing-strings-&quot;&gt;3.Indexing strings []&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#length-of-strings&quot; id=&quot;markdown-toc-length-of-strings&quot;&gt;3.1 length of strings&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#slicing-strings-24&quot; id=&quot;markdown-toc-slicing-strings-24&quot;&gt;4.Slicing strings [2:4]&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#looping-through-strings-with-for-and-while&quot; id=&quot;markdown-toc-looping-through-strings-with-for-and-while&quot;&gt;5.Looping through strings with for and while&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#concatenating-strings-with-&quot; id=&quot;markdown-toc-concatenating-strings-with-&quot;&gt;6.Concatenating strings with +&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#string-operations&quot; id=&quot;markdown-toc-string-operations&quot;&gt;7.String operations&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#string-comparison&quot; id=&quot;markdown-toc-string-comparison&quot;&gt;7.1 String Comparison&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#searching-a-string&quot; id=&quot;markdown-toc-searching-a-string&quot;&gt;7.2 Searching a String&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#making-everything-upper-case&quot; id=&quot;markdown-toc-making-everything-upper-case&quot;&gt;7.3 Making everything UPPER CASE&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#search-and-replace&quot; id=&quot;markdown-toc-search-and-replace&quot;&gt;7.4 Search and Replace&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#stripping-whitespace&quot; id=&quot;markdown-toc-stripping-whitespace&quot;&gt;7.5 Stripping Whitespace&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#prefixes&quot; id=&quot;markdown-toc-prefixes&quot;&gt;7.6 Prefixes&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#parsing-and-extracting&quot; id=&quot;markdown-toc-parsing-and-extracting&quot;&gt;7.7 Parsing and Extracting&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#readconvert&quot; id=&quot;markdown-toc-readconvert&quot;&gt;2.Read/Convert&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#indexing-strings-&quot; id=&quot;markdown-toc-indexing-strings-&quot;&gt;3.Indexing strings []&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#length-of-strings&quot; id=&quot;markdown-toc-length-of-strings&quot;&gt;3.1 length of strings&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#slicing-strings-24&quot; id=&quot;markdown-toc-slicing-strings-24&quot;&gt;4.Slicing strings [2:4]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#looping-through-strings-with-for-and-while&quot; id=&quot;markdown-toc-looping-through-strings-with-for-and-while&quot;&gt;5.Looping through strings with for and while&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#concatenating-strings-with-&quot; id=&quot;markdown-toc-concatenating-strings-with-&quot;&gt;6.Concatenating strings with +&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#string-operations&quot; id=&quot;markdown-toc-string-operations&quot;&gt;7.String operations&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#string-comparison&quot; id=&quot;markdown-toc-string-comparison&quot;&gt;7.1 String Comparison&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#searching-a-string&quot; id=&quot;markdown-toc-searching-a-string&quot;&gt;7.2 Searching a String&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#making-everything-upper-case&quot; id=&quot;markdown-toc-making-everything-upper-case&quot;&gt;7.3 Making everything UPPER CASE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#search-and-replace&quot; id=&quot;markdown-toc-search-and-replace&quot;&gt;7.4 Search and Replace&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#stripping-whitespace&quot; id=&quot;markdown-toc-stripping-whitespace&quot;&gt;7.5 Stripping Whitespace&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#prefixes&quot; id=&quot;markdown-toc-prefixes&quot;&gt;7.6 Prefixes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#parsing-and-extracting&quot; id=&quot;markdown-toc-parsing-and-extracting&quot;&gt;7.7 Parsing and Extracting&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -486,16 +449,10 @@ How to open &amp;amp; read &amp;amp; oprate a file.</summary></entry><entry><tit
 &lt;/aside&gt;
 
 &lt;hr /&gt;
-
-&lt;h1 id=&quot;week-6-strings&quot;&gt;Week 6 Strings&lt;/h1&gt;
-
-&lt;p&gt;Basic string types and how read&amp;amp;convert it. Indexing, looping and slicing a string.&lt;/p&gt;
-
-&lt;!--more--&gt;
+&lt;p&gt;# Week 6 Strings&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;h2 id=&quot;string-type&quot;&gt;1.String type&lt;/h2&gt;
+&lt;p&gt;## 1.String type&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;A string is a &lt;strong&gt;sequence of characters&lt;/strong&gt;&lt;/li&gt;
@@ -831,59 +788,37 @@ False
 &amp;gt;&amp;gt;&amp;gt; print host
 uct.ac.za
 
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿Basic string types and how read&amp;amp;convert it. Indexing, looping and slicing a string.</summary></entry><entry><title>Week 5 loops and iterations</title><link href="https://arecrui.github.io/Week-5-Loops-and-iterations/" rel="alternate" type="text/html" title="Week 5 loops and iterations" /><published>2015-07-13T00:00:00+08:00</published><updated>2015-07-13T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 5 Loops and iterations</id><content type="html" xml:base="https://arecrui.github.io/Week-5-Loops-and-iterations/">&lt;p&gt;﻿Introduces loops and iterations, example of infinite loop and using break&amp;amp;continue.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  Week 6 Strings
-
-
-  
-
-
-
-
-Week 6 Strings
-
-Basic string types and how read&amp;amp;convert it. Indexing, looping and slicing a string.</summary></entry><entry><title>Week 5 loops and iterations</title><link href="https://arecrui.github.io/Week-5-Loops-and-iterations/" rel="alternate" type="text/html" title="Week 5 loops and iterations" /><published>2015-07-13T00:00:00+08:00</published><updated>2015-07-13T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 5 Loops and iterations</id><content type="html" xml:base="https://arecrui.github.io/Week-5-Loops-and-iterations/">&lt;p&gt;﻿—&lt;/p&gt;
-
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-5-loops-and-iterations&quot; id=&quot;markdown-toc-week-5-loops-and-iterations&quot;&gt;Week 5 Loops and iterations&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#while-loops-indefinite&quot; id=&quot;markdown-toc-while-loops-indefinite&quot;&gt;1. While loops (indefinite)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#infinite-loops&quot; id=&quot;markdown-toc-infinite-loops&quot;&gt;2. Infinite loops&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#using-break&quot; id=&quot;markdown-toc-using-break&quot;&gt;3. Using break&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#using-continue&quot; id=&quot;markdown-toc-using-continue&quot;&gt;4. Using continue&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#for-loops-definite&quot; id=&quot;markdown-toc-for-loops-definite&quot;&gt;5. For loops (definite)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#iteration-variables&quot; id=&quot;markdown-toc-iteration-variables&quot;&gt;6. Iteration variables&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#counting-in-a-loop&quot; id=&quot;markdown-toc-counting-in-a-loop&quot;&gt;6.1 Counting in a Loop&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#summing-in-a-loop&quot; id=&quot;markdown-toc-summing-in-a-loop&quot;&gt;6.2 Summing in a Loop&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#finding-the-average-in-a-loop&quot; id=&quot;markdown-toc-finding-the-average-in-a-loop&quot;&gt;6.3 Finding the Average in a Loop&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#filtering-in-a-loop&quot; id=&quot;markdown-toc-filtering-in-a-loop&quot;&gt;6.4 Filtering in a Loop&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#search-using-a-boolean-variable&quot; id=&quot;markdown-toc-search-using-a-boolean-variable&quot;&gt;6.5 Search Using a Boolean Variable&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#largest-or-smallest&quot; id=&quot;markdown-toc-largest-or-smallest&quot;&gt;7. Largest or smallest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#infinite-loops&quot; id=&quot;markdown-toc-infinite-loops&quot;&gt;2. Infinite loops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-break&quot; id=&quot;markdown-toc-using-break&quot;&gt;3. Using break&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-continue&quot; id=&quot;markdown-toc-using-continue&quot;&gt;4. Using continue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#for-loops-definite&quot; id=&quot;markdown-toc-for-loops-definite&quot;&gt;5. For loops (definite)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#iteration-variables&quot; id=&quot;markdown-toc-iteration-variables&quot;&gt;6. Iteration variables&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#counting-in-a-loop&quot; id=&quot;markdown-toc-counting-in-a-loop&quot;&gt;6.1 Counting in a Loop&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#summing-in-a-loop&quot; id=&quot;markdown-toc-summing-in-a-loop&quot;&gt;6.2 Summing in a Loop&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#finding-the-average-in-a-loop&quot; id=&quot;markdown-toc-finding-the-average-in-a-loop&quot;&gt;6.3 Finding the Average in a Loop&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#filtering-in-a-loop&quot; id=&quot;markdown-toc-filtering-in-a-loop&quot;&gt;6.4 Filtering in a Loop&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#search-using-a-boolean-variable&quot; id=&quot;markdown-toc-search-using-a-boolean-variable&quot;&gt;6.5 Search Using a Boolean Variable&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#largest-or-smallest&quot; id=&quot;markdown-toc-largest-or-smallest&quot;&gt;7. Largest or smallest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;/nav&gt;
 &lt;/aside&gt;
 
 &lt;hr /&gt;
+&lt;p&gt;# Week 5 Loops and iterations&lt;/p&gt;
 
-&lt;h1 id=&quot;week-5-loops-and-iterations&quot;&gt;Week 5 Loops and iterations&lt;/h1&gt;
-
-&lt;p&gt;Introduces loops and iterations, example of infinite loop and using break&amp;amp;continue.&lt;br /&gt;
-&lt;!--more--&gt;&lt;br /&gt;
-—&lt;/p&gt;
-
-&lt;h2 id=&quot;while-loops-indefinite&quot;&gt;1. While loops (indefinite)&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;## 1. While loops (indefinite)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Loops&lt;/strong&gt; (repeated steps) have &lt;strong&gt;iteration variables&lt;/strong&gt; that change each time through a loop.  Often these iteration&lt;/p&gt;
 
@@ -1119,30 +1054,15 @@ print &#39;After&#39;, smallest
     3 15
     After 3
 
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿Introduces loops and iterations, example of infinite loop and using break&amp;amp;continue.</summary></entry><entry><title>Week 4 functions</title><link href="https://arecrui.github.io/Week-4-Functions/" rel="alternate" type="text/html" title="Week 4 functions" /><published>2015-07-12T00:00:00+08:00</published><updated>2015-07-12T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 4 Functions</id><content type="html" xml:base="https://arecrui.github.io/Week-4-Functions/">&lt;p&gt;﻿Introduces functions prams and arguments. How to define and use founctions.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  Week 5 Loops and iterations
-
-
-  
-
-
-
-
-Week 5 Loops and iterations
-
-Introduces loops and iterations, example of infinite loop and using break&amp;amp;continue.</summary></entry><entry><title>Week 4 functions</title><link href="https://arecrui.github.io/Week-4-Functions/" rel="alternate" type="text/html" title="Week 4 functions" /><published>2015-07-12T00:00:00+08:00</published><updated>2015-07-12T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 4 Functions</id><content type="html" xml:base="https://arecrui.github.io/Week-4-Functions/">&lt;p&gt;﻿—&lt;/p&gt;
-
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#week-4-functions&quot; id=&quot;markdown-toc-week-4-functions&quot;&gt;Week 4 Functions&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#stored-and-reused-steps&quot; id=&quot;markdown-toc-stored-and-reused-steps&quot;&gt;1.Stored (and reused) Steps&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#python-functions&quot; id=&quot;markdown-toc-python-functions&quot;&gt;2.Python Functions&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#built-in-functions-that-are-provided&quot; id=&quot;markdown-toc-built-in-functions-that-are-provided&quot;&gt;2.1. &lt;strong&gt;Built in functions&lt;/strong&gt; that are provided&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#defined-functions&quot; id=&quot;markdown-toc-defined-functions&quot;&gt;2.2. &lt;strong&gt;Defined functions&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -1164,12 +1084,8 @@ Introduces loops and iterations, example of infinite loop and using break&amp;am
 
 &lt;h1 id=&quot;week-4-functions&quot;&gt;Week 4 Functions&lt;/h1&gt;
 
-&lt;p&gt;Introduces functions prams and arguments. How to define and use founctions.&lt;br /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;h3 id=&quot;stored-and-reused-steps&quot;&gt;1.Stored (and reused) Steps&lt;/h3&gt;
+&lt;p&gt;### 1.Stored (and reused) Steps&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;def hello(): #定义函数(store)
     print &#39;Hello&#39;
@@ -1260,63 +1176,46 @@ Hola Sally
 &amp;gt;&amp;gt;&amp;gt; print greet(&#39;fr&#39;),&#39;Michael’
 Bonjour Michael
 &amp;gt;&amp;gt;&amp;gt; 
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿Introduces functions prams and arguments. How to define and use founctions.</summary></entry><entry><title>Week 3 conditional execution</title><link href="https://arecrui.github.io/Week-3-Conditional-execution/" rel="alternate" type="text/html" title="Week 3 conditional execution" /><published>2015-07-11T00:00:00+08:00</published><updated>2015-07-11T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 3 Conditional execution</id><content type="html" xml:base="https://arecrui.github.io/Week-3-Conditional-execution/">&lt;p&gt;﻿The concept of conditional execution and basic examples.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  Week 4 Functions
-
-
-  
-
-
-
-
-Week 4 Functions
-
-Introduces functions prams and arguments. How to define and use founctions.</summary></entry><entry><title>Week 3 conditional execution</title><link href="https://arecrui.github.io/Week-3-Conditional-execution/" rel="alternate" type="text/html" title="Week 3 conditional execution" /><published>2015-07-11T00:00:00+08:00</published><updated>2015-07-11T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 3 Conditional execution</id><content type="html" xml:base="https://arecrui.github.io/Week-3-Conditional-execution/">&lt;p&gt;﻿—&lt;/p&gt;
-
+&lt;hr /&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-3-conditional-execution&quot; id=&quot;markdown-toc-week-3-conditional-execution&quot;&gt;Week 3 Conditional execution&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#comparison-operators&quot; id=&quot;markdown-toc-comparison-operators&quot;&gt;2. Comparison Operators&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#logical-operators-and-or-not&quot; id=&quot;markdown-toc-logical-operators-and-or-not&quot;&gt;3. Logical operators: and or not&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#indentation&quot; id=&quot;markdown-toc-indentation&quot;&gt;4. Indentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#one-way-decisions&quot; id=&quot;markdown-toc-one-way-decisions&quot;&gt;5. One Way Decisions&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;5.1 流程图如下&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;5.2 代码如下：&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;5.3 显示结果如下：&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#two-way-decisions--if---and-else-&quot; id=&quot;markdown-toc-two-way-decisions--if---and-else-&quot;&gt;6. Two way Decisions  if :  and else :&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;6.1 流程图如下：&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;6.2 代码如下：&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#nested-decisions&quot; id=&quot;markdown-toc-nested-decisions&quot;&gt;7. Nested Decisions(嵌套)&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;7.1 流程图如下：&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;7.2 代码如下：&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#multiway-decisions-using-elif&quot; id=&quot;markdown-toc-multiway-decisions-using-elif&quot;&gt;8. Multiway decisions using elif&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-7&quot; id=&quot;markdown-toc-section-7&quot;&gt;8.1 流程图如下:&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-8&quot; id=&quot;markdown-toc-section-8&quot;&gt;8.2代码如下：&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#multi-way-puzzles-which-will-never-print&quot; id=&quot;markdown-toc-multi-way-puzzles-which-will-never-print&quot;&gt;8.3 Multi-way Puzzles-Which will never print?&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#try--except-to-compensate-for-errors&quot; id=&quot;markdown-toc-try--except-to-compensate-for-errors&quot;&gt;9. Try / Except to compensate for errors&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-9&quot; id=&quot;markdown-toc-section-9&quot;&gt;9.1 示例代码如下：&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#exercise&quot; id=&quot;markdown-toc-exercise&quot;&gt;10. Exercise&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#exercise-31&quot; id=&quot;markdown-toc-exercise-31&quot;&gt;10.1 Exercise 3.1&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#exercise-33&quot; id=&quot;markdown-toc-exercise-33&quot;&gt;10.2 Exercise 3.3&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#comparison-operators&quot; id=&quot;markdown-toc-comparison-operators&quot;&gt;2. Comparison Operators&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#logical-operators-and-or-not&quot; id=&quot;markdown-toc-logical-operators-and-or-not&quot;&gt;3. Logical operators: and or not&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#indentation&quot; id=&quot;markdown-toc-indentation&quot;&gt;4. Indentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#one-way-decisions&quot; id=&quot;markdown-toc-one-way-decisions&quot;&gt;5. One Way Decisions&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;5.1 流程图如下&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;5.2 代码如下：&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;5.3 显示结果如下：&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#two-way-decisions--if---and-else-&quot; id=&quot;markdown-toc-two-way-decisions--if---and-else-&quot;&gt;6. Two way Decisions  if :  and else :&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;6.1 流程图如下：&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;6.2 代码如下：&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#nested-decisions&quot; id=&quot;markdown-toc-nested-decisions&quot;&gt;7. Nested Decisions(嵌套)&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;7.1 流程图如下：&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;7.2 代码如下：&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#multiway-decisions-using-elif&quot; id=&quot;markdown-toc-multiway-decisions-using-elif&quot;&gt;8. Multiway decisions using elif&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-7&quot; id=&quot;markdown-toc-section-7&quot;&gt;8.1 流程图如下:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-8&quot; id=&quot;markdown-toc-section-8&quot;&gt;8.2代码如下：&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#multi-way-puzzles-which-will-never-print&quot; id=&quot;markdown-toc-multi-way-puzzles-which-will-never-print&quot;&gt;8.3 Multi-way Puzzles-Which will never print?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#try--except-to-compensate-for-errors&quot; id=&quot;markdown-toc-try--except-to-compensate-for-errors&quot;&gt;9. Try / Except to compensate for errors&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-9&quot; id=&quot;markdown-toc-section-9&quot;&gt;9.1 示例代码如下：&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#exercise&quot; id=&quot;markdown-toc-exercise&quot;&gt;10. Exercise&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#exercise-31&quot; id=&quot;markdown-toc-exercise-31&quot;&gt;10.1 Exercise 3.1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#exercise-33&quot; id=&quot;markdown-toc-exercise-33&quot;&gt;10.2 Exercise 3.3&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -1325,14 +1224,9 @@ Introduces functions prams and arguments. How to define and use founctions.</sum
 &lt;/aside&gt;
 
 &lt;hr /&gt;
-
-&lt;h1 id=&quot;week-3-conditional-execution&quot;&gt;Week 3 Conditional execution&lt;/h1&gt;
+&lt;p&gt;# Week 3 Conditional execution&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;The concept of conditional execution and basic examples.&lt;/p&gt;
-
-&lt;!--more--&gt;
 &lt;p&gt;### 1. Conditional Steps&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: x=5
@@ -1623,31 +1517,15 @@ except:
     Score = -1
 if Score &amp;lt; 0 :
     print &quot;Error, please enter numeric input!&quot;
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿The concept of conditional execution and basic examples.</summary></entry><entry><title>Week 2 expressions</title><link href="https://arecrui.github.io/Week-2-Expressions/" rel="alternate" type="text/html" title="Week 2 expressions" /><published>2015-07-10T00:00:00+08:00</published><updated>2015-07-10T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 2 Expressions</id><content type="html" xml:base="https://arecrui.github.io/Week-2-Expressions/">&lt;p&gt;﻿This lecture introduces expression and releases first two exercises&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  Week 3 Conditional execution
-
-
-  
-
-
-
-
-Week 3 Conditional execution
-
-
-
-The concept of conditional execution and basic examples.</summary></entry><entry><title>Week 2 expressions</title><link href="https://arecrui.github.io/Week-2-Expressions/" rel="alternate" type="text/html" title="Week 2 expressions" /><published>2015-07-10T00:00:00+08:00</published><updated>2015-07-10T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 2 Expressions</id><content type="html" xml:base="https://arecrui.github.io/Week-2-Expressions/">&lt;h2 id=&quot;section&quot;&gt;﻿&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;﻿&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-2-expressions&quot; id=&quot;markdown-toc-week-2-expressions&quot;&gt;Week 2 expressions&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#values-and-types&quot; id=&quot;markdown-toc-values-and-types&quot;&gt;1. Values and types&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#exercises&quot; id=&quot;markdown-toc-exercises&quot;&gt;15. Exercises&lt;/a&gt;&lt;/li&gt;
@@ -1664,8 +1542,6 @@ The concept of conditional execution and basic examples.</summary></entry><entry
 &lt;h1 id=&quot;week-2-expressions&quot;&gt;Week 2 expressions&lt;/h1&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;This lecture introduces expression and releases first two exercises&lt;br /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;values-and-types&quot;&gt;1. Values and types&lt;/h3&gt;
 
@@ -1694,36 +1570,20 @@ print &quot;So, you work &quot; + str(TotalHours) + &quot; hours per week?&quot;
 &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;Ctemp=raw_input(&quot;Please enter the Celsius temperature:\n&quot;)
 Ftemp=(int(Ctemp)*9/5)+32
 print str(Ctemp) + &#39; degree celsius is &#39; + str(Ftemp) + &#39; degree fahrenheit!\n &#39;
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Liang Zerui</name></author><summary>﻿This lecture introduces expression and releases first two exercises</summary></entry><entry><title>Week 1 why program</title><link href="https://arecrui.github.io/Week-1-Why-Program/" rel="alternate" type="text/html" title="Week 1 why program" /><published>2015-07-09T00:00:00+08:00</published><updated>2015-07-09T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 1 Why Program</id><content type="html" xml:base="https://arecrui.github.io/Week-1-Why-Program/">&lt;p&gt;﻿关于计算机编程的基础知识&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-
-
-     On This Page
-
-  ﻿
-  Week 2 expressions
-
-
-  
-
-
-
-
-Week 2 expressions
-
-
-This lecture introduces expression and releases first two exercises</summary></entry><entry><title>Week 1 why program</title><link href="https://arecrui.github.io/Week-1-Why-Program/" rel="alternate" type="text/html" title="Week 1 why program" /><published>2015-07-09T00:00:00+08:00</published><updated>2015-07-09T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 1 Why Program</id><content type="html" xml:base="https://arecrui.github.io/Week-1-Why-Program/">&lt;h2 id=&quot;section&quot;&gt;﻿&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;﻿&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-1-why-program&quot; id=&quot;markdown-toc-week-1-why-program&quot;&gt;Week 1 Why Program?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;第一周&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;第一周&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#python&quot; id=&quot;markdown-toc-python&quot;&gt;欢迎用Python&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;1.1 为什么要编程&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;1.2 硬件基础&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;1.1 为什么要编程&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;1.2 硬件基础&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#python-1&quot; id=&quot;markdown-toc-python-1&quot;&gt;1.3 Python作为一种编程语言&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#python-2&quot; id=&quot;markdown-toc-python-2&quot;&gt;1.4 撰写Python的段落&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#an-animated-short-python-story&quot; id=&quot;markdown-toc-an-animated-short-python-story&quot;&gt;1.5 An animated short python story&lt;/a&gt;&lt;/li&gt;
@@ -1738,7 +1598,7 @@ This lecture introduces expression and releases first two exercises</summary></e
 
 &lt;h1 id=&quot;week-1-why-program&quot;&gt;Week 1 Why Program?&lt;/h1&gt;
 
-&lt;h1 id=&quot;section-1&quot;&gt;第一周&lt;/h1&gt;
+&lt;h1 id=&quot;section&quot;&gt;第一周&lt;/h1&gt;
 
 &lt;h2 id=&quot;python&quot;&gt;欢迎用Python&lt;/h2&gt;
 
@@ -1746,7 +1606,7 @@ This lecture introduces expression and releases first two exercises</summary></e
   &lt;li&gt;Python的发明者Guido 介绍为什么要学习&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;1.1 为什么要编程&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;1.1 为什么要编程&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -1754,17 +1614,14 @@ This lecture introduces expression and releases first two exercises</summary></e
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;用户 VS 程序员的区别：&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;用户把计算机当做一套工具，比如word，Excel，PPT等程序&lt;/li&gt;
+      &lt;li&gt;程序员理解计算机的方式和计算机的语言&lt;/li&gt;
+      &lt;li&gt;程序员拥有一些基础工具使他们能够构建给用户使用的工具&lt;/li&gt;
+      &lt;li&gt;程序员有时候编写一些大程序给很多人使用（比如浏览器），有时候只是一些小程序解决小问题（比如文件批量重命名工具）&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;!--more--&gt;
-&lt;pre&gt;&lt;code&gt;- 用户把计算机当做一套工具，比如word，Excel，PPT等程序
-- 程序员理解计算机的方式和计算机的语言
-- 程序员拥有一些基础工具使他们能够构建给用户使用的工具
-- 程序员有时候编写一些大程序给很多人使用（比如浏览器），有时候只是一些小程序解决小问题（比如文件批量重命名工具）
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;为什么要成为程序员&lt;/p&gt;
 
@@ -1793,7 +1650,7 @@ This lecture introduces expression and releases first two exercises</summary></e
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;1.2 硬件基础&lt;/h2&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;1.2 硬件基础&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;几个定义
@@ -1859,41 +1716,4 @@ This lecture introduces expression and releases first two exercises</summary></e
       &lt;li&gt;第三个逐个显示；&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Liang Zerui</name></author><summary>﻿
-
-
-
-     On This Page
-
-  ﻿
-  Week 1 Why Program?
-  第一周    
-      欢迎用Python
-      1.1 为什么要编程
-    
-  
-
-
-  
-
-
-
-
-Week 1 Why Program?
-
-第一周
-
-欢迎用Python
-
-
-  Python的发明者Guido 介绍为什么要学习
-
-
-1.1 为什么要编程
-
-
-  
-    人们发明电脑是为了让计算机为我们做事。如果我们不学习计算机的语言，我们就没法告诉计算机我们要做什么。编程就是学习计算机的语言，用计算机能懂的方式命令它按照我们的指令做事。
-  
-  
-    用户 VS 程序员的区别：</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Liang Zerui</name></author><summary>﻿关于计算机编程的基础知识</summary></entry></feed>

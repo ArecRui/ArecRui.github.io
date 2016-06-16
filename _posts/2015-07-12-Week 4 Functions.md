@@ -1,18 +1,14 @@
-﻿
----
+﻿Introduces functions prams and arguments. How to define and use founctions.
+<!--more-->
 
+---
 {% include toc %}
 
 ---
 
 # Week 4 Functions 
 
-
-Introduces functions prams and arguments. How to define and use founctions.
-<!--more-->
-
 ----------
-
 ### 1.Stored (and reused) Steps
 
 ```

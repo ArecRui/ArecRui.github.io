@@ -1,17 +1,13 @@
-﻿
----
+﻿The concept of conditional execution and basic examples.
+<!--more-->
 
+---
 {% include toc %}
 
 ---
-
 # Week 3 Conditional execution
 
 ----------
-
-The concept of conditional execution and basic examples.
-
-<!--more-->
 ### 1. Conditional Steps
 
 ```flow

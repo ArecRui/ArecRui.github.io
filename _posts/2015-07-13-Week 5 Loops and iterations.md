@@ -1,17 +1,13 @@
-﻿
----
+﻿Introduces loops and iterations, example of infinite loop and using break&continue.
+<!--more-->
 
+---
 {% include toc %}
 
-
 ---
-
 # Week 5 Loops and iterations
 
-Introduces loops and iterations, example of infinite loop and using break&continue.
-<!--more-->
 ---
-
 ## 1. While loops (indefinite)
 
 **Loops** (repeated steps) have **iteration variables** that change each time through a loop.  Often these iteration 

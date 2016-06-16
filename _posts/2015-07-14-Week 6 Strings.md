@@ -1,20 +1,13 @@
-﻿
----
-
-{% include toc %}
-
-
----
-
-# Week 6 Strings
-
-Basic string types and how read&convert it. Indexing, looping and slicing a string.
-
+﻿Basic string types and how read&convert it. Indexing, looping and slicing a string.
 <!--more-->
 
+---
+{% include toc %}
 
 ---
+# Week 6 Strings
 
+---
 ## 1.String type
 
 - A string is a **sequence of characters**

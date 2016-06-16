@@ -1,8 +1,9 @@
-﻿
+﻿This lecture introduces expression and releases first two exercises
+<!--more-->
+
 ---
 
 {% include toc %}
-
 
 ---
 
@@ -10,8 +11,7 @@
 # Week 2 expressions
 
 ---
-This lecture introduces expression and releases first two exercises
-<!--more-->
+
 
 ### 1. Values and types
 

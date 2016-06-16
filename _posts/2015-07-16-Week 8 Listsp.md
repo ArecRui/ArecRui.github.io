@@ -1,10 +1,11 @@
-﻿
+﻿This course introduces the concept of collection/list etc.
+<!--more-->
+
 ---
 {% include toc %}
 
 ---
-This course introduces the concept of collection/list etc.
-<!--more-->
+
 
 ## 1. Concept of a collection
 
