@@ -3,6 +3,8 @@
 
 {% include toc %}
 
+excerpt: "Concept of collection | Learning notes | Programming for Everybody | Python | Markdown"
+
 ---
 
 # Week 8 Listsp
@@ -12,7 +14,7 @@
 
 ---
 
-## 1. Concept of a collection 
+## 1. Concept of a collection
 
 - A collection ***allows*** us to ***put many values*** in a ***single “variable”***
 - A collection is nice because we can carry all many values around in one convenient package.
@@ -28,7 +30,7 @@ carryon = [ 'socks', 'shirt', 'perfume' ]
 
 ```
 $ python
-Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53) 
+Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53)
 [GCC 4.0.1 (Apple Computer, Inc. build 5363)] on darwin
 >>> x = 2
 >>> x = 4
@@ -38,7 +40,7 @@ Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53)
 
 ---
 
-## 2. Lists and definite loops 
+## 2. Lists and definite loops
 
 - List constants are surrounded by square brackets and the elements in the list are separated by commas.
 - A list element can be any Python object - even another list
@@ -78,13 +80,13 @@ Happy New Year: SallyDone!
 >>> friends = [ 'Joseph', 'Glenn', 'Sally' ]
 >>> print friends[1]
 Glenn
->>> 
+>>>
 ```
 
 
 ---
 
-## 4. List mutability 
+## 4. List mutability
 
 - Strings are "immutable" - we cannot change the contents of a string - we must make a new string to make any change
 - Lists are "mutable" - we can change an element of a list using the index operator
@@ -92,8 +94,8 @@ Glenn
 ```
 >>> fruit = 'Banana’
 >>> fruit[0] = 'b’
-Traceback 
-TypeError: 'str' object does not 
+Traceback
+TypeError: 'str' object does not
 support item assignment
 >>> x = fruit.lower()
 >>> print x
@@ -107,7 +109,7 @@ banana
 
 ---
 
-## 5. Functions: len, min, max, sum 
+## 5. Functions: len, min, max, sum
 
 - The len() function takes a list as a parameter and returns the number of elements in the list
 - Actually len() tells us the number of elements of any set or sequence (i.e. such as a string...)
@@ -119,28 +121,26 @@ banana
 >>> x = [ 1, 2, 'joe', 99]
 >>> print len(x)
 4
->>> 
+>>>
 ```
 
 
 ---
 
-## 6. Slicing lists 
+## 6. Slicing lists
 
 ---
 
-## 7. List methods: append, remove 
+## 7. List methods: append, remove
 
 ---
 
-## 8. Sorting lists 
+## 8. Sorting lists
 
 ---
 
-## 9. Splitting strings into lists of words 
+## 9. Splitting strings into lists of words
 
 ---
 
 ## 10. Using split to parse strings
-
-
