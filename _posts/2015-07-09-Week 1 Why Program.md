@@ -2,7 +2,6 @@
 ---
 
 {% include toc %}
-excerpt_separator: <!--more-->
 
 ---
 
