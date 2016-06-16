@@ -92,10 +92,10 @@ author:
   xing             :
   youtube          :
 
-include: ["_pages"]
+
 
 # Reading Files
-include:
+include: ["_pages"]
   - .htaccess
   - _pages
 exclude:
