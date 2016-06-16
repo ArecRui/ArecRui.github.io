@@ -6,8 +6,8 @@ main:
   - title: "Resume"
     url: 
 
-  - title: "Portfolios"
-    url: /_page/portfolio.html
+  - title: "Portfolio"
+    url: /portfolio/
 
   - title: "Learning Notes"
     url: 
