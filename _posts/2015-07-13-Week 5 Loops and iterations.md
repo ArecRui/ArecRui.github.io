@@ -1,14 +1,14 @@
 ﻿---
 
 {% include toc %}
+excerpt_separator: <!--more-->
 
 ---
 
 # Week 5 Loops and iterations
 
-标签（空格分隔）： python
-
-
+Introduces loops and iterations, example of infinite loop and using break&continue.
+<!--more-->
 ---
 
 ## 1. While loops (indefinite)

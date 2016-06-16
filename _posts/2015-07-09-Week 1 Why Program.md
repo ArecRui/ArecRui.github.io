@@ -2,15 +2,12 @@
 ---
 
 {% include toc %}
-excerpt: "Learning notes, Programming for Everybody, Python, Markdown"
+excerpt_separator: <!--more-->
 
 ---
 
 
 # Week 1 Why Program?
-
-
-标签： python
 
 # 第一周
 
@@ -24,6 +21,7 @@ excerpt: "Learning notes, Programming for Everybody, Python, Markdown"
 
 2. 用户 VS 程序员的区别：
 
+<!--more-->
 	- 用户把计算机当做一套工具，比如word，Excel，PPT等程序
 	- 程序员理解计算机的方式和计算机的语言
 	- 程序员拥有一些基础工具使他们能够构建给用户使用的工具

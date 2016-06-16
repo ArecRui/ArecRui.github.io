@@ -2,17 +2,16 @@
 ---
 
 {% include toc %}
-excerpt: "What is expression and how to first two exercises, Learning notes, Programming for Everybody, Python, Markdown"
+excerpt_separator: <!--more-->
 
 ---
 
 
 # Week 2 expressions
 
-
-标签（空格分隔）： python
-
 ---
+This lecture introduces expression and releases first two exercises
+<!--more-->
 
 ### 1. Values and types
 

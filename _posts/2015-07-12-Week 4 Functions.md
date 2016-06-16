@@ -1,13 +1,15 @@
 ﻿---
 
 {% include toc %}
+excerpt_separator: <!--more-->
 
 ---
 
 # Week 4 Functions 
 
 
-标签（空格分隔）： python
+Introduces functions prams and arguments. How to define and use founctions.
+<!--more-->
 
 ----------
 

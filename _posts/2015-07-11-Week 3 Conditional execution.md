@@ -1,16 +1,17 @@
 ﻿---
 
 {% include toc %}
+excerpt_separator: <!--more-->
 
 ---
 
 # Week 3 Conditional execution
 
-
-标签（空格分隔）： python
-
 ----------
 
+The concept of conditional execution and basic examples.
+
+<!--more-->
 ### 1. Conditional Steps
 
 ```flow

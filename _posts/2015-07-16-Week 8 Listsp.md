@@ -2,17 +2,17 @@
 ---
 
 {% include toc %}
-
-excerpt: "Concept of collection, Learning notes, Programming for Everybody, Python, Markdown"
+excerpt_separator: <!--more-->
 
 ---
 
 # Week 8 Listsp
 
-标签（空格分隔）： python
-
 
 ---
+
+This course introduces the concept of collection/list etc.
+<!--more-->
 
 ## 1. Concept of a collection
 

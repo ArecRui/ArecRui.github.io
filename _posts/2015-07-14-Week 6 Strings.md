@@ -1,13 +1,15 @@
 ﻿---
 
 {% include toc %}
+excerpt_separator: <!--more-->
 
 ---
 
 # Week 6 Strings
 
-标签（空格分隔）： python
+Basic string types and how read&convert it. Indexing, looping and slicing a string.
 
+<!--more-->
 
 
 ---
