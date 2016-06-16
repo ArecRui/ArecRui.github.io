@@ -3,7 +3,7 @@
 {% include head %}
 
 title: "Portfolio"
-layout: archive
+layout: splash
 excerpt: "This is a test page of portfolio."
 sitemap: false
 permalink: /portfolio.html
