@@ -7,7 +7,7 @@ main:
     url: 
 
   - title: "Portfolios"
-    url: /portfolio.html
+    url: /pages/portfolio
 
   - title: "Learning Notes"
     url: 
