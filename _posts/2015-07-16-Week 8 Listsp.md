@@ -3,7 +3,7 @@
 
 {% include toc %}
 
-excerpt: "Concept of collection | Learning notes | Programming for Everybody | Python | Markdown"
+excerpt: "Concept of collection, Learning notes, Programming for Everybody, Python, Markdown"
 
 ---
 

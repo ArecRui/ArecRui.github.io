@@ -2,10 +2,10 @@
 ---
 
 {% include toc %}
-
 excerpt: "Learning notes, Programming for Everybody, Python, Markdown"
 
 ---
+
 
 # Week 1 Why Program?
 

@@ -2,7 +2,7 @@
 ---
 
 {% include toc %}
-excerpt: "What is expression and how to first two exercises. | Learning notes | Programming for Everybody | Python | Markdown"
+excerpt: "What is expression and how to first two exercises, Learning notes, Programming for Everybody, Python, Markdown"
 
 ---
 
