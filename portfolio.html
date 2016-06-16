@@ -1,13 +1,27 @@
 ---
+
 title: "Portfolio"
-layout: archive
+layout: splash
 excerpt: "This is a test page."
 sitemap: false
 permalink: 
+
 header:
   image: 1111.jpg
+  caption: "Photo credit: [**ArecRui**]()"
+  cta_label: "More Info"
+  cta_url: "https://unsplash.com"
+  
 ---
 
+{% include base_path %}
+{% include feature_row id="intro" type="center" %}
 
 
-This is a test page of portfolio
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+This is a test page of portfolio。
