@@ -3,7 +3,7 @@
 
 {% include toc %}
 
-excerpt: "Learning notes | Programming for Everybody | Python | Markdown"
+excerpt: "Learning notes, Programming for Everybody, Python, Markdown"
 
 ---
 
