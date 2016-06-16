@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T05:28:10+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;h2 id=&quot;section&quot;&gt;﻿&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T10:00:54+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;h2 id=&quot;section&quot;&gt;﻿&lt;/h2&gt;
 
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
@@ -7,7 +7,15 @@
   &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;﻿&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#week-8-listsp&quot; id=&quot;markdown-toc-week-8-listsp&quot;&gt;Week 8 Listsp&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#concept-of-a-collection&quot; id=&quot;markdown-toc-concept-of-a-collection&quot;&gt;1. Concept of a collection&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lists-and-definite-loops&quot; id=&quot;markdown-toc-lists-and-definite-loops&quot;&gt;2. Lists and definite loops&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#indexing-and-lookup&quot; id=&quot;markdown-toc-indexing-and-lookup&quot;&gt;3. Indexing and lookup&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-mutability&quot; id=&quot;markdown-toc-list-mutability&quot;&gt;4. List mutability&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#functions-len-min-max-sum&quot; id=&quot;markdown-toc-functions-len-min-max-sum&quot;&gt;5. Functions: len, min, max, sum&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#slicing-lists&quot; id=&quot;markdown-toc-slicing-lists&quot;&gt;6. Slicing lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-methods-append-remove&quot; id=&quot;markdown-toc-list-methods-append-remove&quot;&gt;7. List methods: append, remove&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#sorting-lists&quot; id=&quot;markdown-toc-sorting-lists&quot;&gt;8. Sorting lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#splitting-strings-into-lists-of-words&quot; id=&quot;markdown-toc-splitting-strings-into-lists-of-words&quot;&gt;9. Splitting strings into lists of words&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#using-split-to-parse-strings&quot; id=&quot;markdown-toc-using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -53,7 +61,8 @@ Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 2. Lists and definite loops&lt;/p&gt;
+
+&lt;h2 id=&quot;lists-and-definite-loops&quot;&gt;2. Lists and definite loops&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;List constants are surrounded by square brackets and the elements in the list are separated by commas.&lt;/li&gt;
@@ -98,7 +107,8 @@ Glenn
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 4. List mutability&lt;/p&gt;
+
+&lt;h2 id=&quot;list-mutability&quot;&gt;4. List mutability&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Strings are “immutable” - we cannot change the contents of a string - we must make a new string to make any change&lt;/li&gt;
@@ -121,7 +131,8 @@ banana
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 5. Functions: len, min, max, sum&lt;/p&gt;
+
+&lt;h2 id=&quot;functions-len-min-max-sum&quot;&gt;5. Functions: len, min, max, sum&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The len() function takes a list as a parameter and returns the number of elements in the list&lt;/li&gt;
@@ -138,19 +149,24 @@ banana
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 6. Slicing lists&lt;/p&gt;
+
+&lt;h2 id=&quot;slicing-lists&quot;&gt;6. Slicing lists&lt;/h2&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 7. List methods: append, remove&lt;/p&gt;
+
+&lt;h2 id=&quot;list-methods-append-remove&quot;&gt;7. List methods: append, remove&lt;/h2&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 8. Sorting lists&lt;/p&gt;
+
+&lt;h2 id=&quot;sorting-lists&quot;&gt;8. Sorting lists&lt;/h2&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 9. Splitting strings into lists of words&lt;/p&gt;
+
+&lt;h2 id=&quot;splitting-strings-into-lists-of-words&quot;&gt;9. Splitting strings into lists of words&lt;/h2&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## 10. Using split to parse strings&lt;/p&gt;</content><author><name>Liang Zerui</name></author><summary>﻿</summary></entry><entry><title>Week 7 files</title><link href="https://arecrui.github.io/Week-7-Files/" rel="alternate" type="text/html" title="Week 7 files" /><published>2015-07-15T00:00:00+08:00</published><updated>2015-07-15T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 7 Files</id><content type="html" xml:base="https://arecrui.github.io/Week-7-Files/">&lt;p&gt;﻿—&lt;/p&gt;
+
+&lt;h2 id=&quot;using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/h2&gt;</content><author><name>Liang Zerui</name></author><summary>﻿</summary></entry><entry><title>Week 7 files</title><link href="https://arecrui.github.io/Week-7-Files/" rel="alternate" type="text/html" title="Week 7 files" /><published>2015-07-15T00:00:00+08:00</published><updated>2015-07-15T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 7 Files</id><content type="html" xml:base="https://arecrui.github.io/Week-7-Files/">&lt;p&gt;﻿—&lt;/p&gt;
 
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
