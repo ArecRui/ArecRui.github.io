@@ -2,6 +2,7 @@
 ---
 
 {% include toc %}
+excerpt: "What is expression and how to first two exercises. | Learning notes | Programming for Everybody | Python | Markdown"
 
 ---
 
@@ -19,7 +20,7 @@
 
 ### 15. Exercises
 
-### Exercises 2.2 
+### Exercises 2.2
 
 Write a program that uses raw_input to prompt a user for their name and then welcomes them.
 
@@ -44,7 +45,3 @@ Ctemp=raw_input("Please enter the Celsius temperature:\n")
 Ftemp=(int(Ctemp)*9/5)+32
 print str(Ctemp) + ' degree celsius is ' + str(Ftemp) + ' degree fahrenheit!\n '
 ```
-
-
-
-
