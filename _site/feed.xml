@@ -1,31 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T15:47:37+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;h2 id=&quot;section&quot;&gt;﻿&lt;/h2&gt;
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://arecrui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arecrui.github.io/" rel="alternate" type="text/html" /><updated>2016-06-16T16:45:34+08:00</updated><id>https://arecrui.github.io/</id><title>Arec_Rui</title><subtitle>This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes.</subtitle><author><name>Liang Zerui</name></author><entry><title>Week 8 listsp</title><link href="https://arecrui.github.io/Week-8-Listsp/" rel="alternate" type="text/html" title="Week 8 listsp" /><published>2015-07-16T00:00:00+08:00</published><updated>2015-07-16T00:00:00+08:00</updated><id>https://arecrui.github.io/Week 8 Listsp</id><content type="html" xml:base="https://arecrui.github.io/Week-8-Listsp/">&lt;p&gt;﻿—&lt;/p&gt;
 &lt;aside class=&quot;sidebar__right&quot;&gt;
 &lt;nav class=&quot;toc&quot;&gt;
     &lt;header&gt;&lt;h4 class=&quot;nav__title&quot;&gt;&lt;i class=&quot;fa fa-file-text&quot;&gt;&lt;/i&gt; On This Page&lt;/h4&gt;&lt;/header&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;﻿&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#week-8-listsp&quot; id=&quot;markdown-toc-week-8-listsp&quot;&gt;Week 8 Listsp&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#concept-of-a-collection&quot; id=&quot;markdown-toc-concept-of-a-collection&quot;&gt;1. Concept of a collection&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#lists-and-definite-loops&quot; id=&quot;markdown-toc-lists-and-definite-loops&quot;&gt;2. Lists and definite loops&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#indexing-and-lookup&quot; id=&quot;markdown-toc-indexing-and-lookup&quot;&gt;3. Indexing and lookup&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#list-mutability&quot; id=&quot;markdown-toc-list-mutability&quot;&gt;4. List mutability&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#functions-len-min-max-sum&quot; id=&quot;markdown-toc-functions-len-min-max-sum&quot;&gt;5. Functions: len, min, max, sum&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#slicing-lists&quot; id=&quot;markdown-toc-slicing-lists&quot;&gt;6. Slicing lists&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#list-methods-append-remove&quot; id=&quot;markdown-toc-list-methods-append-remove&quot;&gt;7. List methods: append, remove&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#sorting-lists&quot; id=&quot;markdown-toc-sorting-lists&quot;&gt;8. Sorting lists&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#splitting-strings-into-lists-of-words&quot; id=&quot;markdown-toc-splitting-strings-into-lists-of-words&quot;&gt;9. Splitting strings into lists of words&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#using-split-to-parse-strings&quot; id=&quot;markdown-toc-using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#concept-of-a-collection&quot; id=&quot;markdown-toc-concept-of-a-collection&quot;&gt;1. Concept of a collection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lists-and-definite-loops&quot; id=&quot;markdown-toc-lists-and-definite-loops&quot;&gt;2. Lists and definite loops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#indexing-and-lookup&quot; id=&quot;markdown-toc-indexing-and-lookup&quot;&gt;3. Indexing and lookup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#list-mutability&quot; id=&quot;markdown-toc-list-mutability&quot;&gt;4. List mutability&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#functions-len-min-max-sum&quot; id=&quot;markdown-toc-functions-len-min-max-sum&quot;&gt;5. Functions: len, min, max, sum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#slicing-lists&quot; id=&quot;markdown-toc-slicing-lists&quot;&gt;6. Slicing lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#list-methods-append-remove&quot; id=&quot;markdown-toc-list-methods-append-remove&quot;&gt;7. List methods: append, remove&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sorting-lists&quot; id=&quot;markdown-toc-sorting-lists&quot;&gt;8. Sorting lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#splitting-strings-into-lists-of-words&quot; id=&quot;markdown-toc-splitting-strings-into-lists-of-words&quot;&gt;9. Splitting strings into lists of words&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#using-split-to-parse-strings&quot; id=&quot;markdown-toc-using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;/nav&gt;
 &lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;week-8-listsp&quot;&gt;Week 8 Listsp&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -39,7 +30,7 @@
   &lt;li&gt;A collection is nice because we can carry all many values around in one convenient package.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;friends = [ &#39;Joseph&#39;, &#39;Glenn&#39;, &#39;Sally&#39; ]
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;friends = [ &#39;Joseph&#39;, &#39;Glenn&#39;, &#39;Sally&#39; ]
 
 carryon = [ &#39;socks&#39;, &#39;shirt&#39;, &#39;perfume&#39; ]
 &lt;/code&gt;&lt;/pre&gt;
@@ -167,22 +158,13 @@ banana
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/h2&gt;</content><author><name>Liang Zerui</name></author><summary>﻿
-
+&lt;h2 id=&quot;using-split-to-parse-strings&quot;&gt;10. Using split to parse strings&lt;/h2&gt;</content><author><name>Liang Zerui</name></author><summary>﻿—
 
 
      On This Page
 
-  ﻿
-  Week 8 Listsp
-
-
   
 
-
-
-
-Week 8 Listsp
 
 
 

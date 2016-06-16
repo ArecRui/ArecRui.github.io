@@ -1,15 +1,7 @@
-﻿
----
-
+﻿---
 {% include toc %}
 
 ---
-
-# Week 8 Listsp
-
-
----
-
 This course introduces the concept of collection/list etc.
 <!--more-->
 
@@ -18,7 +10,7 @@ This course introduces the concept of collection/list etc.
 - A collection ***allows*** us to ***put many values*** in a ***single “variable”***
 - A collection is nice because we can carry all many values around in one convenient package.
 
-```
+```python
 friends = [ 'Joseph', 'Glenn', 'Sally' ]
 
 carryon = [ 'socks', 'shirt', 'perfume' ]
