@@ -2,8 +2,10 @@
 ---
 
 {% include toc %}
+{% include head %}
 header:
   image: 1111.jpg
+  
 ---
 
 # Week 8 Listsp
