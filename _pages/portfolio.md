@@ -1,6 +1,5 @@
 ---
-{% include feature_row %}
-{% include head %}
+{% include feature_row %}{% include head %}
 
 title: "Portfolio"
 layout: splash
