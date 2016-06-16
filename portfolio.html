@@ -7,14 +7,30 @@ sitemap: false
 permalink: 
 
 header:
-  image: RGB.jpg
+  overlay_image: RGB.jpg
+  overlay_filter: 0.2
   caption: "Photo credit: [**ArecRui**]()"
   cta_label: "More Info"
   cta_url: "https://unsplash.com"
   
+gallery1:
+  - url: 1.jpg
+    image_path: 1.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: 2.jpg
+    image_path: 2.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: 3.jpg
+    image_path: 3.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"  
+    
 ---
 
 
 
 This is a test page of portfolio。
 
+{% include gallery id="gallery1" caption="This is a sample gallery with **Markdown support**." %}
