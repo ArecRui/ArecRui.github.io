@@ -1,13 +1,16 @@
 # main links links
 main:
-  - title: "Recent Posts"
-    url: https://arecrui.github.io/recentposts/
+  - title: "Academic Research"
+    url: https://arecrui.github.io/research/
 
-  - title: "Resume"
-    url: https://arecrui.github.io/resume/
+  - title: "Techniques"
+    url: https://arecrui.github.io/tech/
+
+  - title: "Art Related"
+    url: https://arecrui.github.io/art/
 
   - title: "Portfolio"
     url: https://arecrui.github.io/portfolio/
 
-  - title: "Learning Notes"
-    url: 
+  - title: "Resume"
+    url: https://arecrui.github.io/resume/
