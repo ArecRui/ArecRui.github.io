@@ -3,9 +3,14 @@
 
 ---
 {% include toc %}
-teaser: "Python.jpg"
+
+sidebar:
+  nav: "foo1"
+  
+{% include sidebar.html %}
 
 ---
+
 
 
 ## 1. Concept of a collection
