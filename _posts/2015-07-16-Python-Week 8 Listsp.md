@@ -1,6 +1,7 @@
 ﻿---
 
 title: "Python Week 8"
+
 sidebar:
   nav: "foo"
 
