@@ -3,9 +3,10 @@
 
 ---
 {% include toc %}
-teaser: "Python.jpg"
+
 
 ---
+
 # Week 3 Conditional execution
 
 ----------

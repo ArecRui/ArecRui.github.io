@@ -3,8 +3,9 @@
 
 ---
 {% include toc %}
-teaser: "Python.jpg"
+
 ---
+
 # Week7 Files
 
 ---

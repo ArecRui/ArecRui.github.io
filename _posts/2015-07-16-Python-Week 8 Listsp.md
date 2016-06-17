@@ -1,16 +1,11 @@
-﻿---
+﻿This course introduces the concept of collection/list etc.
+<!--more-->
 
-title: "Python Week 8"
-
-sidebar:
-  nav: "foo"
+---
+{% include toc %}
 
 ---
 
-This course introduces the concept of collection/list etc.
-<!--more-->
-
-{% include toc %}
 
 ## 1. Concept of a collection
 

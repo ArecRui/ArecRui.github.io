@@ -3,7 +3,7 @@
 
 ---
 {% include toc %}
-teaser: "Python.jpg"
+
 
 ---
 
