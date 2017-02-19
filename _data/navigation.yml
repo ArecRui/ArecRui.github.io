@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Academic Research"
-    url: https://arecrui.github.io/research/
+    url: /docs/ArtsCompress/
 
   - title: "Techniques"
     url: https://arecrui.github.io/tech/
@@ -33,7 +33,7 @@ foo:
         url: /child-2-page-url/
       - title: "Child Link 3"
         url: /child-3-page-url/
-        
+
 
 foo1:
   - title: "1"
