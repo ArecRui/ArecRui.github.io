@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ó£”Ô¡∫—‘"
+title                    : "Henry Liang"
 title_separator          : "-"
 name                     : "Henry Liang"
 description              : "This is a personal website of Mr. Henry Liang. This website is designed to collect all the learning notes."
@@ -63,7 +63,7 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Liang Zerui"
+  name             : "Henry Liang"
   avatar           : "bio-photo.jpg"
   bio              : "A Student"
   location         : "Hong Kong"
