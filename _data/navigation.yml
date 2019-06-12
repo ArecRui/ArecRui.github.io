@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Academic Research"
-    url: /docs/ArtsCompress/
+    url: /docs/research/
 
   - title: "Techniques"
     url: https://arecrui.github.io/tech/
@@ -10,7 +10,7 @@ main:
     url: https://arecrui.github.io/art/
 
   - title: "Portfolio"
-    url: https://arecrui.github.io/portfolio/
+    url: /portfolio/
 
   - title: "Resume"
     url: https://arecrui.github.io/resume/

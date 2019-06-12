@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Arec_Rui"
+title                    : "Ó£”Ô¡∫—‘"
 title_separator          : "-"
-name                     : "Liang Zerui"
-description              : "This is a personal website of Mr. Liang Zerui. This website is designed to collect all the learning notes."
-url                      : "https://arecrui.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Henry Liang"
+description              : "This is a personal website of Mr. Henry Liang. This website is designed to collect all the learning notes."
+url                      : "https://www.liangzerui.com" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -95,7 +95,7 @@ author:
 
 
 # Reading Files
-include: 
+include:
   - .htaccess
   - _pages
 exclude:
@@ -220,7 +220,18 @@ defaults:
       comments: true
       share: true
       related: true
-      
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 collections:
   portfolio:
     output: true
