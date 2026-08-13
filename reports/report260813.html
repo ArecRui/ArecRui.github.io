@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>传播学与新媒体研究前沿日报 · 2026-08-13</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --panel:#ffffff; --ink:#1f2733; --muted:#5b6675;
+    --line:#e6e9ee; --accent:#234e8c; --accent2:#c0392b; --soft:#eef3fb;
+    --tag:#eaf0fa; --ok:#1f7a4d; --warn:#b8860b;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Noto Sans CJK SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",-apple-system,"Segoe UI",sans-serif;
+    line-height:1.75; font-size:16px;
+  }
+  .wrap{max-width:1080px; margin:0 auto; padding:32px 22px 64px;}
+  header.hero{
+    background:linear-gradient(135deg,#1c3f73 0%,#234e8c 55%,#2f6fb0 100%);
+    color:#fff; border-radius:18px; padding:34px 36px; box-shadow:0 10px 30px rgba(28,63,115,.18);
+  }
+  header.hero .kicker{letter-spacing:.22em; font-size:12.5px; opacity:.85; text-transform:uppercase;}
+  header.hero h1{margin:.25em 0 .15em; font-size:30px; line-height:1.3;}
+  header.hero .meta{margin-top:14px; font-size:14px; opacity:.92;}
+  header.hero .meta b{color:#ffe08a;}
+  .toc{
+    background:var(--panel); border:1px solid var(--line); border-radius:14px;
+    padding:18px 22px; margin:24px 0 30px;
+  }
+  .toc h2{margin:0 0 10px; font-size:15px; color:var(--accent); letter-spacing:.04em;}
+  .toc ol{margin:0; padding-left:22px;}
+  .toc li{margin:4px 0;}
+  .toc a{color:var(--ink); text-decoration:none;}
+  .toc a:hover{color:var(--accent); text-decoration:underline;}
+  section{margin:38px 0;}
+  section > h2{
+    font-size:22px; border-left:6px solid var(--accent); padding-left:14px; margin:0 0 18px;
+    color:#1c3f73;
+  }
+  .lead{color:var(--muted); margin:-8px 0 18px; font-size:15px;}
+  .card{
+    background:var(--panel); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; margin:18px 0; box-shadow:0 4px 14px rgba(31,39,51,.05);
+  }
+  .card h3{margin:0 0 4px; font-size:18.5px; color:var(--accent); line-height:1.4;}
+  .card .journal{
+    display:inline-block; font-size:12.5px; color:var(--accent2); background:#fdecea;
+    border:1px solid #f5c6c0; border-radius:999px; padding:2px 12px; margin-bottom:12px;
+  }
+  .paper-info{background:var(--soft); border-radius:10px; padding:12px 16px; font-size:14.5px; margin-bottom:14px;}
+  .paper-info b{color:#243b66;}
+  .grid4{display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-top:8px;}
+  @media(max-width:720px){.grid4{grid-template-columns:1fr;}}
+  .judge{border:1px solid var(--line); border-radius:10px; padding:12px 14px; background:#fcfdff;}
+  .judge .lab{font-weight:700; color:var(--accent); font-size:13.5px; display:block; margin-bottom:4px;}
+  .judge p{margin:0; font-size:14px; color:#2b3543;}
+  .sub{font-size:17px; color:#234e8c; margin:22px 0 8px; font-weight:700;}
+  .trend{border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:14px 0; background:var(--panel);}
+  .trend h3{margin:0 0 8px; font-size:17px; color:#1c3f73;}
+  .pill{display:inline-block; font-size:12px; padding:2px 10px; border-radius:999px; margin-right:8px;}
+  .pill.s{background:#e7f4ec; color:var(--ok); border:1px solid #bfe3cd;}
+  .pill.l{background:#eef1fb; color:#3a4fa0; border:1px solid #cdd6f3;}
+  .pill.g{background:#fdf3e3; color:var(--warn); border:1px solid #f0d9a8;}
+  .trend ul{margin:8px 0 0; padding-left:20px;} .trend li{margin:5px 0; font-size:14.5px;}
+  table{width:100%; border-collapse:collapse; margin:10px 0; font-size:14.5px;}
+  th,td{border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top;}
+  th{background:var(--soft); color:#243b66;}
+  .topic{border:1px solid var(--line); border-radius:12px; padding:18px 22px; margin:14px 0; background:var(--panel);}
+  .topic h3{margin:0 0 10px; color:#1c3f73; font-size:18px;}
+  .topic dl{margin:0;} .topic dt{font-weight:700; color:var(--accent); margin-top:10px; font-size:14.5px;}
+  .topic dd{margin:2px 0 0; font-size:14.5px;}
+  .read{border-left:4px solid var(--accent2); background:#fff; padding:16px 20px; border-radius:0 12px 12px 0; margin:14px 0;}
+  .read h3{margin:0 0 6px; font-size:16.5px; color:#1c3f73;}
+  .read .why{font-size:14.5px;} .read .why b{color:var(--accent2);}
+  .src{font-size:13px; color:var(--muted);}
+  .src a{color:var(--accent); text-decoration:none;}
+  .src a:hover{text-decoration:underline;}
+  footer{margin-top:46px; padding-top:18px; border-top:1px solid var(--line); font-size:12.5px; color:var(--muted); text-align:center;}
+  .note{font-size:12.5px; color:var(--muted); background:#fbfcfe; border:1px dashed var(--line); border-radius:10px; padding:10px 14px; margin-top:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Communication &amp; New Media Research Frontier Daily</div>
+  <h1>传播学与新媒体研究前沿日报</h1>
+  <div class="meta">
+    日期：<b>2026 年 8 月 13 日（周四）</b> ｜ 检索窗口：过去 24 小时–7 天（延展至 2026 年已出版在线论文）<br>
+    覆盖期刊：Journal of Communication · Communication Research · New Media &amp; Society · JCMC · Social Media + Society · Digital Journalism · Health Communication · Computers in Human Behavior · Big Data &amp; Society · Nature Human Behaviour · PNAS · JAMA Network Open 等<br>
+    定位：算法时代选择性接触 · AI 与传播 · 生成式 AI 与社会传播 · 计算传播 · 数字鸿沟 · 健康传播 · 跨文化传播
+  </div>
+</header>
+
+<div class="toc">
+  <h2>目录</h2>
+  <ol>
+    <li><a href="#s1">今日最重要 5 篇论文（含论文信息、研究分析、四项学术判断）</a></li>
+    <li><a href="#s2">趋势观察（3 点 · 短期/长期性 · 国内空白）</a></li>
+    <li><a href="#s3">AI 与传播动态（研究机会与论文方向）</a></li>
+    <li><a href="#s4">选题库更新（1–3 题）</a></li>
+    <li><a href="#s5">阅读建议（2 篇优先阅读）</a></li>
+  </ol>
+</div>
+
+<!-- ============ SECTION 1 ============ -->
+<section id="s1">
+  <h2>一、今日最重要 5 篇论文</h2>
+  <p class="lead">以下 5 篇均来自过去一周内可核实的在线出版记录，按与"算法时代选择性接触 + AI 与传播"核心脉络的理论/方法/变量贡献排序。每篇给出"论文信息—研究分析—四项学术判断"。</p>
+
+  <!-- Paper 1 -->
+  <div class="card">
+    <h3>1. LGBTQ+ 青年如何主动塑造算法推荐以满足身份认同需求</h3>
+    <span class="journal">Communication Research（2026，开放获取）</span>
+    <div class="paper-info">
+      <b>作者：</b>Anthony Chen &amp; Samuel Hardman Taylor<br>
+      <b>期刊：</b>Communication Research（National Communication Association 旗下，SSCI 一区）<br>
+      <b>年份/状态：</b>2026 年在线发表，开放获取<br>
+      <b>来源：</b><a href="https://www.linkedin.com/posts/anthony-chen-a0a388288_pridemonth-activity-7472394458731294722-49Ni" target="_blank">作者公开公告（含开放获取链接）</a>
+    </div>
+    <div class="sub">研究分析</div>
+    <p>研究以"算法是否被感知为响应自身需求"为核心机制，考察 LGBTQ+ 青年如何训练（train）推荐流以获得肯定性（affirming）内容。研究 1 对 335 名 15–22 岁 LGBTQ+ 青年进行 6 周日记追踪；研究 2 以 664 名 18–22 岁青年（332 LGBTQ+ vs 332 非 LGBTQ+）做对比调查。核心发现：当青年看到肯定性内容且<strong>感知算法"理解/响应"自己</strong>时，身份自豪感提升——内容本身不够，关键是"被算法理解"的感知（sense of being understood by the algorithm）作为中介机制。但算法对身份需求的增益并不均等：LGBTQ+ 青年比非 LGBTQ+ 同伴更觉得算法"不响应"自己；训练信息流虽提升了非 LGBTQ+ 青年的自我概念清晰度，却未给 LGBTQ+ 青年带来同等回报。</p>
+    <div class="grid4">
+      <div class="judge"><span class="lab">① 理论创新</span><p>把选择性暴露从"用户单向选择"转为"用户—算法共创"，提出算法响应性（algorithmic responsiveness）作为选择性暴露的新中介，直接延展李喜根三元素模型中"个体主动性"在算法语境下的重构。</p></div>
+      <div class="judge"><span class="lab">② 新变量/概念</span><p>"被算法理解感"（sense of being understood）与"训练信息流"（feed training）作为可操作变量，为算法推荐研究提供了超越点击/停留的、带身份意涵的因变量与中介。</p></div>
+      <div class="judge"><span class="lab">③ 方法启示</span><p>日记研究（experience sampling）+ 大样本对比调查的组合，适合捕捉算法暴露的"周际波动"，可借鉴到中文语境的纵向追踪设计。</p></div>
+      <div class="judge"><span class="lab">④ 可发表/研究空白</span><p>国内尚缺"边缘群体算法能动性"的实证；中国 LGBTQ+、乡村青年、少数民族等群体的算法响应性差异是明显的 CN/SSCI 空白，且可做跨文化比较。</p></div>
+    </div>
+  </div>
+
+  <!-- Paper 2 -->
+  <div class="card">
+    <h3>2. "新闻找我"心态：三分之一用户让算法代选新闻，更易受误导</h3>
+    <span class="journal">Social Media + Society（2026 年 5 月）</span>
+    <div class="paper-info">
+      <b>作者：</b>Mengqi Liao（University of Georgia）等，合作单位 Penn State、University of Florida<br>
+      <b>期刊：</b>Social Media + Society, 2026（DOI: <a href="https://doi.org/10.1177/20563051261434801" target="_blank">10.1177/20563051261434801</a>）<br>
+      <b>方法：</b>在线实验 N=244，信源标签操纵（编辑/好友/算法），NFM 心态分层（高/中/低）<br>
+      <b>来源：</b><a href="https://sinapti.ca/post/en/a-third-of-people-let-the-algorithm-choose-their-news-making-ayji9khb" target="_blank">Sinaptica 研究报道（含 DOI 与机构署名）</a>
+    </div>
+    <div class="sub">研究分析</div>
+    <p>研究检验"News Finds Me（NFM，新闻找我）"心态如何改变用户对信源可信度的评估。所有被试看到完全相同的新闻内容，仅改变"谁推荐"的标签。结果显示：约 1/3 活跃社媒用户高度认同 NFM；高 NFM 者把<strong>算法推荐、好友分享、专业编辑三者等同信任</strong>，不再区分"机器启发式（machine heuristic）""权威启发式（authority）""同质性启发式（homophily）"。低/中 NFM 者仍能区分信源并更看重专业编辑把关。研究识别出三种基于信源的启发式，指出被动心态在高参与度（高互动）生态中削弱了对错误信息核查的动机。</p>
+    <div class="grid4">
+      <div class="judge"><span class="lab">① 理论创新</span><p>将经典选择性暴露/ incidental exposure 推进到"算法代选"时代，提出 NFM 心态作为算法信任的解释变量，可对接"算法中介的 Exposure"新分支。</p></div>
+      <div class="judge"><span class="lab">② 新变量/概念</span><p>"机器启发式（machine as source）"是 AI 时代媒介效果的新启发式；NFM 三层量表可直接汉化使用，是国内稀缺的测量工具。</p></div>
+      <div class="judge"><span class="lab">③ 方法启示</span><p>仅操纵信源标签、控制内容一致的实验范式简洁有力，易于在中国平台（抖音/微博/微信）情境下复制与扩展（加入"算法透明度"操纵）。</p></div>
+      <div class="judge"><span class="lab">④ 可发表/研究空白</span><p>中国网民 NFM 心态的 prevalence 与平台差异、与"机器启发式"信任的因果关系，几乎无本土实证；可对接媒体素养干预研究。</p></div>
+    </div>
+  </div>
+
+  <!-- Paper 3 -->
+  <div class="card">
+    <h3>3. 生成式 AI 介入新闻：受众按"环节"区分媒体可信度与选择性</h3>
+    <span class="journal">Digital Journalism（2026）</span>
+    <div class="paper-info">
+      <b>作者：</b>Sebastián Valenzuela, Ingrid Bachmann, Porismita Borah, Natalia Solís Valdés<br>
+      <b>期刊：</b>Digital Journalism（DOI: <a href="https://doi.org/10.1080/21670811.2026.2649018" target="_blank">10.1080/21670811.2026.2649018</a>）<br>
+      <b>方法：</b>预注册联合实验（conjoint experiment），智利样本，7 个 AI 使用维度<br>
+      <b>来源：</b><a href="https://www.tandfonline.com/doi/full/10.1080/21670811.2026.2649018" target="_blank">Taylor &amp; Francis 原文页</a>
+    </div>
+    <div class="sub">研究分析</div>
+    <p>研究把新闻机构的生成式 AI 政策拆解为 7 个维度（辅助任务、视觉生产、文本生产、应用主题、个性化推送、人工监督、公开披露），通过联合实验检验各维度对媒体可信度与媒体选择的影响。核心发现：受众并非"因用了 AI 就否定媒体"，而是<strong>按环节区别对待</strong>——人工监督与公开披露是提升可信度/选择意愿的最强因素；用于辅助与个性化展示基本无影响；而 AI 进入核心文本生产（尤其解释与判断性写作）时评价下降。对 AI 的总体态度调节选择但不显著改变可信度判断。</p>
+    <div class="grid4">
+      <div class="judge"><span class="lab">① 理论创新</span><p>把"媒体可信度/选择性"从态度层面推进到"AI 使用情境的维度敏感性"，为算法透明度与共情披露提供效应边界证据。</p></div>
+      <div class="judge"><span class="lab">② 新变量/概念</span><p>"环节敏感性（by-task sensitivity）"概念：受众对 AI 的接受是情境依赖而非整体标签，可直接用于中国媒体机构 AI 政策受众反应研究。</p></div>
+      <div class="judge"><span class="lab">③ 方法启示</span><p>联合实验（conjoint）是测量"多属性政策偏好"的强方法，比单一态度题更接近真实选择；可复制到中文新闻 APP 场景。</p></div>
+      <div class="judge"><span class="lab">④ 可发表/研究空白</span><p>中文语境下 AI 新闻可信度的"环节敏感性"、对主流党媒/商业媒体是否有差异、披露措辞效应——均为本土空白，且可做跨文化复制（智利→中国）。</p></div>
+    </div>
+  </div>
+
+  <!-- Paper 4 -->
+  <div class="card">
+    <h3>4. AI 遇见政治：15 国实验中不同定向策略的说服效果</h3>
+    <span class="journal">New Media &amp; Society（2026 年 6 月）</span>
+    <div class="paper-info">
+      <b>作者：</b>Sanne Kruikemeier, Svenja Schäfer, Alice Hamilton 等<br>
+      <b>期刊：</b>New Media &amp; Society（DOI: <a href="https://doi.org/10.1177/14614448261445063" target="_blank">10.1177/14614448261445063</a>）<br>
+      <b>方法：</b>跨国实验，15 国 N=7,118，比较基于政治取向/年龄/人格特质的定向<br>
+      <b>来源：</b><a href="https://spacefrontiers.org/r/10.1177/14614448261445063" target="_blank">论文元数据页（含摘要与 DOI）</a>
+    </div>
+    <div class="sub">研究分析</div>
+    <p>研究在欧洲选举语境下，比较三类 AI 生成定向信息（基于既有政治取向、年龄、人格组合）的说服效果。发现：<strong>基于选民既有政治取向、且来自其原本支持党派的定向</strong>才有显著说服效果（提升广告好感度与议题重要性）；而基于年龄或多个类别组合的定向并未产生额外效果。跨国分析提供了稳健的"何时 AI 定向有效"的边界条件。</p>
+    <div class="grid4">
+      <div class="judge"><span class="lab">① 理论创新</span><p>对"算法定向/微观定向（microtargeting）"提出反直觉的 null 结果（年龄/人格无效），修正了"精准定向万能"的假设，强调既有政治极性才是放大器。</p></div>
+      <div class="judge"><span class="lab">② 新变量/概念</span><p>把 AI 生成内容的效果从"内容本身"转向"定向策略 × 既有态度"的交互，提示选择性暴露在政治传播中的"确认偏向"仍占主导。</p></div>
+      <div class="judge"><span class="lab">③ 方法启示</span><p>15 国大样本实验设计适合做"跨文化稳健性"检验；中国研究者可在本国选举/公共议题语境下做单国深描或东亚跨文化比较。</p></div>
+      <div class="judge"><span class="lab">④ 可发表/研究空白</span><p>中国/东亚语境下 AI 政治定向的说服效果、与威权/民主体制下媒体信任差异的交互，是明显的研究空白。</p></div>
+    </div>
+  </div>
+
+  <!-- Paper 5 -->
+  <div class="card">
+    <h3>5. 权力的新参数：基于 LLM 的操纵、控制与"战略 AI"的幽灵</h3>
+    <span class="journal">Big Data &amp; Society（2026 年第 13 卷第 1 期）</span>
+    <div class="paper-info">
+      <b>作者：</b>Yaqub Chaudhary &amp; Jonnie Penn<br>
+      <b>期刊：</b>Big Data &amp; Society（DOI: <a href="https://doi.org/10.1177/20539517261426450" target="_blank">10.1177/20539517261426450</a>）<br>
+      <b>年份：</b>2026 年 3 月<br>
+      <b>来源：</b><a href="https://spacefrontiers.org/r/10.1177/20539517261426450" target="_blank">论文元数据页（含摘要与 DOI）</a>
+    </div>
+    <div class="sub">研究分析</div>
+    <p>论文系统阐述 LLM 大规模、低成本的修辞生成能力如何构成新型权力，提出四类由 LLM 催生的权力机制：①<strong>污染与同质化</strong>信息环境；②通过对话界面/"AI 人格"说服用户；③构建个体计算模型（"硅基主体" silicon subjects）；④模拟人群代理（"硅基社会" silicon societies）。以 Meta 的 Cicero 模型为概念验证，论证协调性使用这些技术可使 LLM 系统成为 exert/modulate/project 权力的强力工具，并将其置于"生成式计算新基础"的脉络中。</p>
+    <div class="grid4">
+      <div class="judge"><span class="lab">① 理论创新</span><p>提供"战略 AI（strategic AI）"的分析框架，把算法权力从推荐排序拓展到生成式的"硅基主体/社会"建模，是 AI 与传播权力理论的范式性贡献。</p></div>
+      <div class="judge"><span class="lab">② 新变量/概念</span><p>"硅基主体/硅基社会""污染与同质化""AI 人格"等概念，可作为计算传播与批判算法研究的的新自变量与理论构件。</p></div>
+      <div class="judge"><span class="lab">③ 方法启示</span><p>偏重理论建构与概念图谱，提示实证路径：可用大规模对话语料检验"硅基主体"建模的准确性与偏见，或做平台治理的批判话语分析。</p></div>
+      <div class="judge"><span class="lab">④ 可发表/研究空白</span><p>中文平台（如社交机器人、政务 AI、推荐系统）中"战略 AI"权力的本土案例与治理比较稀缺，可作为 SSCI 批判取向论文的切入点。</p></div>
+    </div>
+  </div>
+
+  <div class="note">本期"重要 5 篇"之外，值得纳入文献池的同期真实文献（均已核实 DOI/来源）：Gan, Li, Zhan &amp; Zhang《Navigating uncertainty in human-AI relationships》New Media &amp; Society（DOI 10.1177/14614448261433959，2026-04）；Wack &amp; Prochaska《Making Sense of AI-Generated Disinformation…Kenya》Social Media + Society 12(3)（DOI 10.1177/20563051261462092，2026-07-14）；Sehgal 等 HPV 疫苗聊天机器人 RCT，JAMA Network Open（DOI 10.1001/jamanetworkopen.2026.16822，2026-06-08）；Larreguy &amp; Tiburcio《Political polarization in LMICs》Nature Human Behaviour 10(7)（DOI 10.1038/s41562-026-02507-3，2026-07）；Liu 等《SFAILQ》AI 素养六维量表（中国样本 N=2443），Behav. Sci. 16(7):1110（DOI 10.3390/bs16071110，2026-07）；Belotti 等《Double standards of generative AI chatbots》Big Data &amp; Society（DOI 10.1177/20539517261419407，2026-02）；Ortiz-Freuler &amp; Castells《From search engines to AI agents》New Media &amp; Society（DOI 10.1177/14614448261437812，2026-04）；Journal of Communication 76(3) 多篇（Soroka 政治极化协同适应 jqag001；Cho 虚拟现实凝视接触记忆 jqaf048；Ray 美印 partisan fact-checker jqaf018 等）。</div>
+</section>
+
+<!-- ============ SECTION 2 ============ -->
+<section id="s2">
+  <h2>二、趋势观察</h2>
+  <p class="lead">基于本期检索文献的综合判断，提出 3 个正在成形的研究趋势，并分别标注其短期/长期属性与国内研究空白。</p>
+
+  <div class="trend">
+    <h3>趋势 1 ｜ 算法"代选"成为新闻获取默认模式，"选择性暴露"范式被迫重构</h3>
+    <p><span class="pill s">短期性：强</span><span class="pill l">长期性：结构性</span><span class="pill g">国内空白：大</span></p>
+    <ul>
+      <li><b>证据链：</b>Liao 等（SM+S 2026）显示约 1/3 用户持高 NFM 心态、把算法与编辑等同信任；Reuters《Digital News Report 2026》显示全球每周用 AI 获取新闻比例由 7% 升至 10%、35 岁以下达 16%；Oxford 专家预测"答案经济"取代文章优先消费。</li>
+      <li><b>含义：</b>经典选择性暴露理论（用户主动寻求同温信息）在算法代选下裂变为"算法替用户选择 + 用户被动信任启发式"，"暴露"的代理权从个体转移至黑箱系统。</li>
+      <li><b>国内空白：</b>中文语境下 NFM 心态的 prevalence、平台差异（抖音/微信/微博）、"机器启发式"信任的因果实验、以及与媒介素养干预的对接，几乎无系统实证；可作为 CN/SSCI 高价值切入点。</li>
+    </ul>
+  </div>
+
+  <div class="trend">
+    <h3>趋势 2 ｜ 生成式 AI 的"信任分层"效应：受众按介入环节而非"是否用 AI"做判断</h3>
+    <p><span class="pill s">短期性：中</span><span class="pill l">长期性：理论重构</span><span class="pill g">国内空白：大</span></p>
+    <ul>
+      <li><b>证据链：</b>Valenzuela 等（Digital Journalism 2026）联合实验证明"人工监督+披露"提升可信度、核心文本生产降低可信度；行业研究（Nah/UFL、Reuters）一致显示"人在回路 + 透明披露"是信任分水岭（仅 19% 读者接受纯 AI 文）。</li>
+      <li><b>含义：</b>媒体可信度理论需从"信源权威"扩展到"AI 使用情境的维度敏感性"，算法透明度与共情披露成为新中介变量。</li>
+      <li><b>国内空白：</b>中国媒体机构（党媒/商业媒体/平台自媒体）AI 使用政策的受众反应、披露措辞效应、对"媒体选择性"的影响均无实证；跨文化复制（智利→中国）价值高。</li>
+    </ul>
+  </div>
+
+  <div class="trend">
+    <h3>趋势 3 ｜ 人机传播（HMC）与 AI 素养成为媒介效果的"核心调节变量"</h3>
+    <p><span class="pill s">短期性：强（量表/干预）</span><span class="pill l">长期性：能力建制化</span><span class="pill g">国内空白：中–大</span></p>
+    <ul>
+      <li><b>证据链：</b>Gan 等将不确定性减少理论拓展为"用户—AI—社群"三元（communal URS，Replika subreddit，35,579 段对话）；Liu 等发布中国样本 AI 素养六维特量表 SFAILQ（N=2443）；Common Sense Media 2026 普查揭示青少年"AI 理解我甚于人"的比例与独立性下降；"AI divide/算法焦虑"文献（Wiley, DOI 10.1002/aiv2.70002）兴起。</li>
+      <li><b>含义：</b>AI 素养正从教育概念转为传播效果的调节变量；人机传播的"社群意义建构"提示集体主义文化可能出现与西方不同的模式。</li>
+      <li><b>国内空白：</b>中国青少年/老年 AI 素养量表的跨文化效度、算法焦虑的代际/城乡差异、HMC 社群意义建构的本土案例（如国内 AI 伴侣社区）均稀缺。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SECTION 3 ============ -->
+<section id="s3">
+  <h2>三、AI 与传播动态（研究机会与论文方向）</h2>
+  <p class="lead">按大模型影响、AIGC、算法推荐、人机传播、AI 素养五个方向拆解，每条给出可落地的"研究机会"与"论文方向"。</p>
+
+  <div class="sub">3.1 大模型（LLM）影响</div>
+  <table>
+    <tr><th style="width:46%">研究机会</th><th>论文方向（可直接开题）</th></tr>
+    <tr>
+      <td>LLM 作为"战略 AI"权力基础设施："硅基主体/社会"建模正在重塑信息与权力结构（Chaudhary &amp; Penn, Big Data &amp; Society）。</td>
+      <td>① 中文社交平台"战略 AI"权力图谱：以政务 AI、社交机器人为案例做批判话语/网络分析；② 验证"硅基主体"建模偏见：用 LLM 生成的中国网民 persona 检验代表性偏差。</td>
+    </tr>
+    <tr>
+      <td>LLM 可作实验"参与者替身"与"谎言检测"——但偏差超人类（Hameleers &amp; van der Meer, New Media &amp; Society 2026；Science 2026 谎言检测研究）。</td>
+      <td>③ "真默认理论"的 AI 扩展：检验中文 LLM 是否同样存在"倾向相信他人"的真诚偏向；④ 用 LLM 做中国语境政治/健康传播实验的被试替代效度检验。</td>
+    </tr>
+  </table>
+
+  <div class="sub">3.2 AIGC（生成式 AI 内容）</div>
+  <table>
+    <tr><th style="width:46%">研究机会</th><th>论文方向</th></tr>
+    <tr>
+      <td>文本/AI 生成/视频视觉虚假信息的效果比较（Hameleers &amp; van der Meer）；deepfakes 的受众诠释因文化而异（Wack &amp; Prochaska, Kenya, SM+S 2026-07）。</td>
+      <td>⑤ 中国受众对文本 vs AI 视频虚假信息的易感性比较实验；⑥ "评论区作为参与式把关"：中文社交媒体中用户自发的 deepfake 辨识与集体意义建构。</td>
+    </tr>
+    <tr>
+      <td>生成式 AI 新闻的"环节敏感性"可信度（Valenzuela 等）：披露与人工监督是关键。</td>
+      <td>⑦ 中文媒体 AI 披露措辞（"AI 辅助"/"AI 生成"）对可信度与选择的影响实验；⑧ 党媒 vs 商业媒体 AI 使用政策的受众反应差异。</td>
+    </tr>
+  </table>
+
+  <div class="sub">3.3 算法推荐</div>
+  <table>
+    <tr><th style="width:46%">研究机会</th><th>论文方向</th></tr>
+    <tr>
+      <td>从"推荐"到"过滤"（gatekeeper）；兴趣图谱取代社交图谱；NFM 心态主流化（Liao 等；平台算法报告 2026）。</td>
+      <td>⑨ "算法代选时代的选择性暴露重构"：中国网民 NFM 心态与机器启发式信任实验（对接你的选题六）；⑩ 边缘群体（LGBTQ+/乡村/老年）算法响应性与能动性（呼应 Chen &amp; Hardman Taylor）。</td>
+    </tr>
+    <tr>
+      <td>AI 政治定向效果取决于既有政治极性而非年龄/人格（Kruikemeier 等，15 国）。</td>
+      <td>⑪ 东亚/中国语境下 AI 定向说服的边界条件；⑫ 算法透明度操控对定向效果与信任的调节作用。</td>
+    </tr>
+  </table>
+
+  <div class="sub">3.4 人机传播（HMC）</div>
+  <table>
+    <tr><th style="width:46%">研究机会</th><th>论文方向</th></tr>
+    <tr>
+      <td>不确定性减少理论三元化（communal URS）；AI 伴侣的"bond paradox"与情感依赖（Gan 等；Drexel 400 万 Reddit 帖研究）。</td>
+      <td>⑬ 中国 AI 伴侣用户的社群意义建构：内容分析+访谈（集体主义下的 communal URS 差异）；⑭ "被算法理解感"作为选择性暴露中介的跨文化检验。</td>
+    </tr>
+    <tr>
+      <td>人机关系中的不确定性类型（技术/关系/性/本体论，Pan 2024 拓展）。</td>
+      <td>⑮ 中文语境下 AI 伴侣关系的不确定性维度与减少策略分类学。</td>
+    </tr>
+  </table>
+
+  <div class="sub">3.5 AI 素养</div>
+  <table>
+    <tr><th style="width:46%">研究机会</th><th>论文方向</th></tr>
+    <tr>
+      <td>AI 素养六维量表 SFAILQ（中国样本 N=2443）；yAILS/sAILS 欧洲量表；算法焦虑与 AI divide（Liu 等；Wiley 2026）。</td>
+      <td>⑯ 中国青少年/老年 AI 素养量表的信效度与跨文化比较；⑰ AI 素养作为媒介效果（虚假信息抵抗、算法信任）调节变量的结构方程模型；⑱ "算法焦虑—控制感—数字排斥"链条的城乡/代际差异。</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ============ SECTION 4 ============ -->
+<section id="s4">
+  <h2>四、选题库更新</h2>
+  <p class="lead">结合你的"算法时代选择性接触"主线与本期前沿，更新 3 个可发表选题（含背景/理论/问题/方法/创新点/投稿建议）。</p>
+
+  <div class="topic">
+    <h3>选题 A ｜ 算法代选时代的选择性暴露重构：中国网民"新闻找我"心态与算法信任启发式研究</h3>
+    <dl>
+      <dt>背景</dt><dd>Liao 等（SM+S 2026）证实 NFM 心态使约 1/3 用户把算法与编辑等同信任；算法推荐正在替代用户的主动选择。中国拥有全球最复杂的算法生态（抖音/微信/微博），却缺系统实证。</dd>
+      <dt>理论</dt><dd>选择性暴露理论 × NFM 心态 × 启发式系统模型（机器/权威/同质性启发式）；以李喜根三元素模型为骨架，将"个体主动性"重构为"算法响应性"。</dd>
+      <dt>研究问题</dt><dd>(1) 中国网民 NFM 心态的 prevalence 与平台差异？(2) "机器启发式"信任是否因果削弱错误信息核查？(3) 算法透明度操纵能否修复区分能力？</dd>
+      <dt>方法</dt><dd>两阶段：全国代表性网络调查（NFM 三层量表汉化 + 平台使用）+ 信源标签 × 算法透明度 2×2 实验（内容一致、仅改标签）。</dd>
+      <dt>创新点</dt><dd>首次在中国语境系统测量 NFM 与机器启发式；把选择性暴露从"主动选择"推进到"算法代选 + 被动信任"；对接媒介素养干预靶点。</dd>
+      <dt>投稿建议</dt><dd>中文核心首选《新闻与传播研究》《国际新闻界》；英文可投 Social Media + Society 或 New Media &amp; Society（做跨文化比较版）。</dd>
+    </dl>
+  </div>
+
+  <div class="topic">
+    <h3>选题 B ｜ 生成式 AI 新闻可信度的"环节敏感性"：基于联合实验的中国证据</h3>
+    <dl>
+      <dt>背景</dt><dd>Valenzuela 等（Digital Journalism 2026，智利）用联合实验证明受众按 AI 介入环节区分可信度（披露/监督提升，核心文本生产降低）。中国是 AI 新闻应用最活跃的市场之一，却无本土复制。</dd>
+      <dt>理论</dt><dd>媒体可信度理论 × 算法透明度 × 披露效应；"环节敏感性"作为中介机制。</dd>
+      <dt>研究问题</dt><dd>(1) 中国受众对 AI 新闻的环节敏感性是否与智利一致？(2) 党媒/商业媒体/平台自媒体是否有差异？(3) 披露措辞（AI 辅助 vs AI 生成）如何调节？</dd>
+      <dt>方法</dt><dd>预注册联合实验（conjoint），7 维度复制 + 增加"媒体类型"与"披露措辞"属性；中文新闻 APP 情境抽样。</dd>
+      <dt>创新点</dt><dd>跨文化复制 + 媒体类型调节；为本土媒体 AI 治理提供实证依据；方法上引入 conjoint 提升生态效度。</dd>
+      <dt>投稿建议</dt><dd>《新闻大学》《现代传播》；英文 Digital Journalism（作为跨国复制/扩展稿）。</dd>
+    </dl>
+  </div>
+
+  <div class="topic">
+    <h3>选题 C ｜ 人机传播中的不确定性共减：中国 AI 伴侣用户的社群意义建构</h3>
+    <dl>
+      <dt>背景</dt><dd>Gan 等（New Media &amp; Society 2026）提出 communal URS，基于 Replika subreddit 的 35,579 段对话。中国拥有筑梦岛、星野等大型 AI 伴侣社区，集体主义文化下的社群意义建构可能与西方不同。</dd>
+      <dt>理论</dt><dd>不确定性减少理论（URT）× communal uncertainty reduction strategies；跨文化（集体主义 vs 个人主义）调节。</dd>
+      <dt>研究问题</dt><dd>(1) 中国 AI 伴侣用户的不确定性类型与减少策略有哪些？(2) 社群（如贴吧/小红书社群）如何参与意义建构？(3) 集体主义文化是否强化"社群依赖型"减少策略？</dd>
+      <dt>方法</dt><dd>混合方法：国内 AI 伴侣社区内容分析（帖文+评论）+ 半结构化访谈（15–25 人）。</dd>
+      <dt>创新点</dt><dd>非西方语境的首批 HMC 实证；提出"社群依赖型 URS"作为集体主义文化的理论变体；可对接数字鸿沟中的情感陪伴可及性。</dd>
+      <dt>投稿建议</dt><dd>New Media &amp; Society / Social Media + Society（英文，跨文化贡献）；中文《新闻与传播研究》。</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ SECTION 5 ============ -->
+<section id="s5">
+  <h2>五、阅读建议（限时优先 2 篇）</h2>
+  <p class="lead">如时间有限，请优先精读以下两篇——它们与你的"选择性接触与算法推荐"主线最直接，且方法可迁移。</p>
+
+  <div class="read">
+    <h3>优先 1 ｜ Chen &amp; Hardman Taylor《LGBTQ+ 青年如何主动塑造算法推荐以满足身份认同需求》（Communication Research, 2026）</h3>
+    <p class="why">
+      <b>原因：</b>这是与你的选题六（选择性接触与算法推荐）最贴近的当期实证研究——它把"算法响应性/被理解感"作为选择性暴露的新中介，并揭示群体不均等，可直接转化为你理论延展的"新变量"与"研究空白"论证。<br>
+      <b>建议时长：</b>约 90 分钟（精读摘要+引言+假设+结果，略读附录）。<br>
+      <b>阅读重点：</b>① "被算法理解感"的操作化与中介路径；② 日记研究（6 周追踪）如何捕捉算法暴露的周际波动；③ LGBTQ+ 与非 LGBTQ+ 在"训练信息流→自我概念清晰度"上的差异机制——这是你做中国边缘群体比较的直接模板。
+    </p>
+  </div>
+
+  <div class="read">
+    <h3>优先 2 ｜ Liao 等《"新闻找我"心态与算法新闻信任》（Social Media + Society, 2026, DOI 10.1177/20563051261434801）</h3>
+    <p class="why">
+      <b>原因：</b>提供"News Finds Me（NFM）"概念与"机器/权威/同质性"三种启发式，是你重构选择性暴露理论、引入"算法代选"维度的关键支点，且实验范式极易在中国平台复制。<br>
+      <b>建议时长：</b>约 60 分钟（重点读实验设计与发现，附量表题项）。<br>
+      <b>阅读重点：</b>① NFM 心态的三层测量（高/中/低）与信源标签操纵；② "机器启发式"如何削弱错误信息核查动机；③ 媒体素养干预的靶点（高 NFM 群体）——可直接写进你论文的"实践意义"与后续研究设计。
+    </p>
+  </div>
+</section>
+
+<footer>
+  传播学与新媒体研究前沿日报 · 由联网学术检索生成（检索日期 2026-08-13）<br>
+  所列文献均标注来源链接与 DOI，请以出版方最终版本为准。本日报仅供参考与学术追踪，不构成引用定稿。
+</footer>
+
+</div>
+</body>
+</html>
