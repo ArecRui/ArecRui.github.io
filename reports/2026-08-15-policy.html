@@ -6,268 +6,279 @@
 <title>Higher Education Policy & Private University Daily Brief · 2026-08-15</title>
 <style>
   :root{
-    --ink:#1f2933; --muted:#5b6b7b; --line:#e3e8ee; --bg:#f5f7fa;
-    --card:#ffffff; --accent:#1a5fb4; --accent2:#0f7b6c; --tag:#eef3f9;
+    --bg:#f4f6fb; --card:#ffffff; --ink:#1f2733; --sub:#5b6776;
+    --line:#e6eaf2; --accent:#1f5fbf; --accent2:#0f9d8a; --warn:#b8860b;
+    --tag:#eef3fb; --tagink:#1f5fbf;
   }
-  *{box-sizing:border-box;}
+  *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-    line-height:1.7;font-size:15px;}
-  header{background:linear-gradient(135deg,#1a5fb4,#0f7b6c);color:#fff;padding:34px 28px;}
-  header h1{margin:0 0 6px;font-size:25px;letter-spacing:.3px;}
-  header .sub{margin:0;opacity:.92;font-size:15px;font-weight:400;}
-  header .date{margin:14px 0 0;font-size:13px;opacity:.85;}
-  main{max-width:960px;margin:0 auto;padding:26px 20px 40px;}
-  section{background:var(--card);border:1px solid var(--line);border-radius:10px;
-    padding:22px 24px;margin-bottom:18px;box-shadow:0 1px 3px rgba(20,40,70,.04);}
-  h2{font-size:19px;margin:0 0 14px;padding-bottom:10px;border-bottom:2px solid var(--accent);
-    color:var(--accent);}
-  h2 .en{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:3px;letter-spacing:.4px;}
-  h3{font-size:15.5px;margin:18px 0 8px;color:var(--ink);}
-  h3 .tag{font-size:11px;background:var(--tag);color:var(--accent);padding:2px 8px;border-radius:20px;margin-left:8px;vertical-align:middle;font-weight:500;}
-  ul{margin:6px 0 6px;padding-left:20px;}
-  li{margin:7px 0;}
-  .meta{font-size:12.5px;color:var(--muted);margin:2px 0 4px;}
-  .meta b{color:var(--accent2);font-weight:600;}
-  a{color:var(--accent);text-decoration:none;word-break:break-all;}
-  a:hover{text-decoration:underline;}
-  .src{font-size:12px;color:var(--muted);}
-  .note{background:#fff8e6;border-left:4px solid #e0a800;padding:10px 14px;border-radius:6px;
-    font-size:13px;color:#6b5400;margin:8px 0;}
-  .cover{background:var(--tag);border-radius:8px;padding:12px 16px;font-size:13.5px;color:var(--muted);margin-bottom:12px;}
-  .cover b{color:var(--ink);}
-  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
-  @media(max-width:680px){.two{grid-template-columns:1fr;}}
-  footer{max-width:960px;margin:0 auto;padding:0 20px 50px;color:var(--muted);font-size:12px;text-align:center;}
-  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent2);margin-right:7px;vertical-align:middle;}
+    font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;font-size:15px}
+  .wrap{max-width:980px;margin:0 auto;padding:28px 20px 60px}
+  header.hero{background:linear-gradient(135deg,#1f3a6e,#1f5fbf);
+    color:#fff;border-radius:16px;padding:26px 28px;box-shadow:0 6px 24px rgba(31,90,191,.18)}
+  header.hero h1{margin:0 0 6px;font-size:23px;letter-spacing:.3px}
+  header.hero .meta{opacity:.92;font-size:13.5px;margin-top:10px;display:flex;flex-wrap:wrap;gap:8px 18px}
+  header.hero .meta b{font-weight:600}
+  .notice{background:#fff8e8;border:1px solid #f3e0b0;color:#7a5b12;
+    border-radius:10px;padding:10px 14px;font-size:13px;margin:16px 0 4px}
+  section.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:18px 20px;margin-top:18px;box-shadow:0 2px 10px rgba(20,40,80,.04)}
+  .sec-h{display:flex;align-items:center;gap:10px;margin:0 0 12px}
+  .sec-n{background:var(--accent);color:#fff;width:30px;height:30px;border-radius:8px;
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;flex:none}
+  .sec-h h2{margin:0;font-size:18px}
+  .sub-h{font-weight:700;color:#243b66;margin:14px 0 6px;font-size:15px}
+  .item{border-left:3px solid var(--line);padding:8px 0 8px 14px;margin:10px 0}
+  .item.k{margin-left:6px}
+  .item h3{margin:0 0 4px;font-size:15px;color:#1f2733}
+  .item p{margin:4px 0;color:#3a4658}
+  .tag{display:inline-block;background:var(--tag);color:var(--tagink);border-radius:6px;
+    padding:1px 8px;font-size:12px;margin-right:6px;font-weight:600}
+  .tag.g{background:#e7f7f2;color:#0f7d6e}
+  .tag.w{background:#fff1da;color:#9a6a06}
+  .src{font-size:12.5px;color:#7a8699;margin-top:3px}
+  .src a{color:#1f5fbf;text-decoration:none}
+  .none{color:#9aa4b2;font-style:italic;padding:6px 0 6px 14px}
+  .rota{background:#eef3fb;border:1px dashed #b9cdee;border-radius:10px;padding:10px 14px;
+    font-size:13.5px;margin-top:8px;color:#2a4a86}
+  footer{margin-top:24px;text-align:center;color:#9aa4b2;font-size:12.5px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header>
-  <h1>Higher Education Policy &amp; Private University Daily Brief</h1>
-  <p class="sub">高等教育政策与民办高校动态日报</p>
-  <p class="date">2026-08-15（周六） · 每日 07:00 自动生成 · 数据截至 2026-08-14</p>
-</header>
-<main>
+<div class="wrap">
 
-<!-- 一 -->
-<section>
-  <h2>一、教育部政策与通知<span class="en">I. Ministry of Education — Policies &amp; Notices</span></h2>
-
-  <h3>2026 年度普通高等学校本科专业设置工作全面铺开</h3>
-  <p class="meta"><b>发布：</b>教育部高等教育司《关于开展2026年度普通高等学校本科专业设置工作的通知》（教高司函〔2026〕7号）· 各地高校 8 月组织申报</p>
-  <ul>
-    <li>申报范围含六类：新增本科专业/第二学士学位、调整专业名称或学位门类、撤销专业、国控与目录外新专业、中外合作办学补充备案等。</li>
-    <li>重点方向：集成电路、航空航天、生物医药、低空经济、未来能源、量子科技、生物制造、<b>具身智能、脑机接口、6G</b> 等战略性新兴产业与未来产业；多省严控艺术学、教育学、管理学新增布点。</li>
-    <li>8 月 31 日前集中备案/审批，未预申报的急需专业须 8 月 6 日前补交说明材料。</li>
-  </ul>
-  <p class="src">参考：内蒙古农业大学 jwc.imau.edu.cn/info/1119/14075.htm · 苏州科技大学 jwch.usts.edu.cn/info/1085/11978.htm · 四川文理学院 jwc.sasu.edu.cn</p>
-
-  <h3>教育部增补 27 个职业教育新专业</h3>
-  <p class="meta"><b>发布：</b>2026 年《职业教育专业目录》专业增补 · 2026-08-01（上观新闻）</p>
-  <ul>
-    <li>本次增补高职专科 9 个、职业本科 18 个，涉及 14 个专业大类、20 个专业类。</li>
-    <li>聚焦数字经济、低空经济、人工智能、高端装备、城市更新与民生紧缺领域；依托<b>行业产教融合共同体、市域产教联合体</b>将产业一线需求转化为专业设置依据。</li>
-  </ul>
-  <p class="src">来源：www.toutiao.com/article/7668885023973491252/</p>
-
-  <h3>2026 年本科层次职业教育专业备案结果公布</h3>
-  <p class="meta"><b>发布：</b>教育部 · 2026-08-03 前后（以江苏省为例）</p>
-  <ul>
-    <li>江苏新增职业本科专业点 51 个、专科专业点 331 个，新增总量创近年新高；同步撤销 103 个低适配专科专业点。</li>
-    <li>围绕江苏"1650"产业体系，AI 专业集群（智能体工程技术等）布点 30 个、低空经济相关专业 17 个。</li>
-  </ul>
-  <p class="src">来源：www.toutiao.com/article/7669686278615335433</p>
-</section>
-
-<!-- 二 -->
-<section>
-  <h2>二、河南省教育厅动态<span class="en">II. Henan Provincial Department of Education</span></h2>
-
-  <h3>举办中国国际大学生创新大赛（2026）河南赛区选拔赛</h3>
-  <p class="meta"><b>发布：</b>河南省教育厅办公室 · 2026-08-06</p>
-  <ul>
-    <li>落实《教育强国建设规划纲要（2024—2035年）》，打造教育、科技、人才一体推进实践平台；主题"我敢闯，我会创"。</li>
-    <li>文件明确推进<b>职普融通、产教融合、科教融汇</b>，鼓励各学段学生参赛。</li>
-  </ul>
-  <p class="src">来源：m.jyt.henan.gov.cn/2026/08-06/3383172.html</p>
-
-  <h3>2026 年河南省"高校学工先锋"名单揭晓</h3>
-  <p class="meta"><b>发布：</b>河南省教育厅 · 2026-08-07</p>
-  <ul>
-    <li>全省 10 个高校学生工作集体、10 名个人获评；<b>黄河科技学院陆竹棠</b>获评个人称号（民办高校代表）。</li>
-  </ul>
-  <p class="src">来源：jyt.henan.gov.cn/2026/08-07/3383449.html</p>
-
-  <h3>普通高职（专科）批征集志愿（两轮）</h3>
-  <p class="meta"><b>发布：</b>河南省教育考试院 · 2026-08-08 / 2026-08-12 再次征集</p>
-  <ul>
-    <li>首轮 595 所院校分专业征集；8 月 12 日再次征集，涉及 136 所院校，面向未被录取考生。</li>
-    <li>对考生提示：填报前须查阅高校招生章程，审慎确定报考院校专业组。</li>
-  </ul>
-  <p class="src">来源：www.toutiao.com/article/7671432897891385890 · so.html5.qq.com（河南发布）</p>
-</section>
-
-<!-- 三 -->
-<section>
-  <h2>三、民办教育协会动态<span class="en">III. Private Education Associations</span></h2>
-  <div class="two">
-    <div>
-      <h3>中国民办教育协会<span class="tag">全国</span></h3>
-      <ul>
-        <li><b>第一届民办高校 AI 赋能科研学术会议</b>：定于 2026-09-20 在太原举办（山西工商学院承办），面向民办高校征集 AI 赋能科研实践案例，<b>征集截止 9 月 7 日</b>，报名截止 9 月 10 日。聚焦"十五五"民办高校科研提质增效与产学研转化。</li>
-        <li><b>国际中文教育标准教师教学能力提升专项培训</b>：2026-08-14 至 16 日在长春举办（吉林外国语大学承办），服务民办院校汉教专业建设。</li>
-        <li><b>2026 年度规划课题评审</b>：多校公示立项名单（如广东科技学院 10 项拟推荐）。</li>
-        <li><b>第七届 SEE 教育大会</b>：2026-08-15 至 16 日在杭州举办，协会科学教育专委会等主办，聚焦数字化、AI 教育方案。</li>
-      </ul>
-      <p class="src">来源：www.canedu.org.cn/site/content/8161.html · 8157.html · wgly.hangzhou.gov.cn</p>
+  <header class="hero">
+    <h1>Higher Education Policy &amp; Private University Daily Brief</h1>
+    <div style="opacity:.92;font-size:14px">高等教育政策与民办高校动态日报</div>
+    <div class="meta">
+      <span><b>日期</b> 2026-08-15（周六）</span>
+      <span><b>运行时间</b> 约 2026-08-15 07:00</span>
+      <span><b>调度</b> 每日 01:00</span>
+      <span><b>生成</b> 自动化手动验证版</span>
     </div>
-    <div>
-      <h3>河南省民办教育协会<span class="tag">河南</span></h3>
-      <ul>
-        <li><b>2026 年度课题立项及 2025 年课题结项</b>：评审工作结束，多校公示——安阳学院 104 项获准立项、77 项结项；黄河科技学院等多校立项。</li>
-        <li><b>2025 年度调研课题结项公示</b>：拟对 <b>3864 项</b>予以结项（2026-07-24 至 28 公示）。</li>
-        <li>立项方向集中于民办高等教育质量、产教融合、应用型人才培养等。</li>
-      </ul>
-      <p class="src">来源：www.ayxy.edu.cn/kyc/contents/1876/5258.html · www.hnsmbjy.com/info/1022/1602.htm · kyc.humc.edu.cn</p>
-    </div>
-  </div>
-</section>
+  </header>
 
-<!-- 四 -->
-<section>
-  <h2>四、软科前 30 民办高校最新成果与动态<span class="en">IV. Top-30 Private Universities — Recent Outcomes (no ranking published)</span></h2>
-  <div class="cover">
-    <b>覆盖范围说明：</b>本期依据 2026 软科中国民办高校排名（主榜）筛选追踪对象，重点覆盖主榜头部院校——
-    <b>浙江树人学院、齐鲁理工学院、珠海科技学院、山东协和学院、大连东软信息学院、西京学院、黄河科技学院（河南本土）、武昌首义学院</b>（共 8 所，覆盖主榜前 11 中的 8 所）。
-    其余院校（茅台学院、武汉东湖学院、重庆人文科技学院等）按滚动抽样，本期未覆盖部分将于后续日期补查。日报<b>不刊载排名本身</b>。
+  <div class="notice">
+    数据窗口说明：除「第四节 · 其他民办高校动态」按<b>过去一周（2026-08-08 ~ 08-14）</b>检索外，
+    其余各节仅收录<b>运行时前 1 天（2026-08-14）</b>发布的动态；早于该窗口的新闻不予列入。
   </div>
 
-  <h3>浙江树人学院</h3>
-  <ul>
-    <li>暑期社会实践成果突出：信息科技学院团队为衢州千里岗红军标语建<b>高清数字档案</b>、留存对越自卫反击战老兵口述史料（2026-08-11，潮新闻）。</li>
-    <li>"步步竹光"实践团赴丽水龙泉小砻坑村，将竹海生态、畲乡民俗、青瓷非遗融入乡村文旅方案（2026-08-11）。</li>
-    <li>"浙那石榴红·科普万里行"：西藏那曲 24 名学子走进树人，体验 AI 机器视觉、大模型实验室（2026-08-01 官网）。</li>
-  </ul>
-  <p class="src">来源：www.toutiao.com/article/7672588727336370703/ · 7672666784230638120 · www.zjsru.edu.cn/info/1142/56118.htm</p>
+  <!-- 一 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">1</div><h2>教育部政策与通知（仅前 1 天）</h2></div>
 
-  <h3>齐鲁理工学院</h3>
-  <ul>
-    <li>2026 级新生录取查询系统持续更新（截至 8 月 12 日，覆盖全国各批次）。</li>
-    <li>在 2026 年度<b>山东省教师教学创新大赛</b>中获一等奖 3 项、二等奖 2 项，创历史最佳（2026-07-21）。</li>
-    <li>山东省第五届大学生国旗护卫队现场展示活动在校成功举办（2026-06）。</li>
-    <li>驻曲高校新生可免费参观"三孔"景区（曲阜市政策，2026-07-23 发布，适用至 9 月 30 日）。</li>
-  </ul>
-  <p class="src">来源：www.qlit.edu.cn/zsw/lqcx/2026/0713/71037.html · ccpd.china.com.cn/2026-07/21/content_43464797.html</p>
+    <div class="item">
+      <h3>职业教育专业目录年度增补：新增 27 个本专科专业，锚定前沿产业</h3>
+      <p>教育部公布 2026 年《职业教育专业目录》增补结果，共增补 27 个职业教育本、专科专业
+      （高职专科 9 个、职业本科 18 个），涉及人形机器人工程技术、车联网通信技术、氢能工程技术、
+      低空运输工程技术等方向；明确依托<b>市域产教联合体、行业产教融合共同体</b>（如城市更新行业
+      产教融合共同体、德阳重大技术装备制造市域产教联合体）摸排人才缺口、增设专业。</p>
+      <div class="src">来源：中国妇女网 / 新浪财经 · 2026-08-14 ·
+        <a href="https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-14%2Fdoc-ininhhrr2931060.shtml">链接</a></div>
+    </div>
 
-  <h3>珠海科技学院</h3>
-  <ul>
-    <li>健康学院与粤澳中医药产业园开发有限公司联合举办健康讲座，推进<b>产教融合育人</b>新模式（2026-08-01）。</li>
-    <li>全国大学生跆拳道锦标赛总决赛<b>勇夺 3 金 2 银 1 铜</b>，甲组团体竞技第三次夺冠（2026-08-06）。</li>
-    <li>"星火焕乡"突击队以法治、无人机、武术、舞蹈、生态瓶五育并举开展乡村实践（2026-08-07）。</li>
-    <li>青年学子助力"百千万工程"，研习侨批文脉并普及国家助学贷款政策（2026-08-10）。</li>
-  </ul>
-  <p class="src">来源：www.zcst.edu.cn/_t3/2026/0731/c4605a193446/page.htm · www.toutiao.com/article/7670878517516681764 · cn.chinadaily.com.cn/a/202608/07/WS6a7579cda310d709c2fc2139.html</p>
+    <div class="item">
+      <h3>本科专业设置平台公示新增专业：47 所高校，工学门类 53 个居首</h3>
+      <p>普通高等学校本科专业设置与服务平台 8 月 14 日公示新增专业申报，已公示 47 所高校；
+      拟新增专业中<b>工学门类 53 个</b>居首，6 所高校申报大数据管理与应用、4 所申报数字经济专业，
+      显示新工科与数字经济热度延续。</p>
+      <div class="src">来源：贵阳晚报（腾讯新闻） · 2026-08-14 ·
+        <a href="https://new.qq.com/rain/a/20260815A02R1B00">链接</a></div>
+    </div>
 
-  <h3>山东协和学院</h3>
-  <ul>
-    <li>副校长带队赴济南市第一人民医院、宏济堂中药研究院等开展<b>访企拓岗促就业</b>，推进"校院一体"医教研协同（2026-08-06）。</li>
-    <li>工学院赴潍坊豪迈、歌尔股份等走访，探索订单式人才培养与前置贯通式育人（2026-08-06）。</li>
-    <li>教师团队获 2026 外研社"教学之星"大赛<b>全国半决赛特等奖</b>（2026-08-01）。</li>
-  </ul>
-  <p class="src">来源：dns2.sdxiehe.edu.cn/news/view.php?id=148918 · 148917 · 148910</p>
+    <div class="item">
+      <h3>影响解读</h3>
+      <p>职教专业目录增补已常态化、机制化，导向"产业需求 → 专业设置"快速响应；本科新专业公示
+      凸显工学与数字经济导向，预示 2027 年招生专业结构进一步向智能制造、人工智能倾斜。</p>
+    </div>
+  </section>
 
-  <h3>大连东软信息学院</h3>
-  <ul>
-    <li>在第二十八届中国机器人及人工智能大赛全国总决赛<b>具身智能赛道获国家级一等奖</b>（与大连理工等 985 同台，2026-08-11/12）。</li>
-    <li>暑期打造"海外课堂+校内国际交流"双向格局；中澳 Start-up China IT 创新项目入选"青年使者交流学习计划"（YES，2026-08-09）。</li>
-    <li>校长带队赴粤港澳大湾区访企拓岗，对接 AI、具身智能、云计算等数字赛道（2026-08-08）。</li>
-    <li>学生"又见智创"团队 AI 智能纸雕灯落地大连明珠卡 IP 联名，双创作品实现商业化转化（2026-08-06）。</li>
-  </ul>
-  <p class="src">来源：www.neusoft.edu.cn/index.html · www.neusoft.edu.cn/html/975/2026-08-09/content-8126.html · www.toutiao.com/article/7673038435057271346/</p>
+  <!-- 二 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">2</div><h2>河南省教育厅动态（仅前 1 天）</h2></div>
+    <div class="none">前 1 天（2026-08-14）河南省教育厅官网未检索到新发政策 / 通知 / 新闻，标注：近期无更新。</div>
+    <p class="src" style="padding-left:14px">近期背景（非当日，仅供参考，不列入正文）：官网最近更新为 8 月 12 日
+      《河南省教育厅 2026 年度拟录用人员公示》；7–8 月另发布"2026 年上半年高校教师资格认定人员名单公示"
+      "2026—2027 学年秋季学期中小学教辅材料审查"等。</p>
+  </section>
 
-  <h3>西京学院</h3>
-  <ul>
-    <li>设计艺术学院研究生党员赴秦巴山区开展"艺术+党建"乡村美育支教（2026-08-07，陕西日报）。</li>
-    <li><b>陕西省液晶聚合物智能显示重点实验室</b>成果获《科技日报》报道，聚焦"液晶调光"细分赛道，多项成果量产并供应头部企业（2026-08-02）。</li>
-    <li>获批 2026 年度陕西省科技计划项目 <b>31 项</b>（自然科学基础研究 28 项），同比增长 37.1%。</li>
-    <li>医学院"井冈魂·医者心"宣讲团入选 2026 年"井冈情·中国梦"全国大学生暑期社会实践专项行动。</li>
-  </ul>
-  <p class="src">来源：xjdj.xijing.edu.cn/info/1133/18398.htm · www.xijing.edu.cn/info/1113/17387.htm · www.toutiao.com/article/7668227800952635945/</p>
+  <!-- 三 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">3</div><h2>民办教育协会动态（仅前 1 天）</h2></div>
 
-  <h3>黄河科技学院（河南本土）</h3>
-  <ul>
-    <li>2026 年"中原对决"武道精英跆拳道争霸赛在校举办，依托赛事平台深化<b>产教融合</b>、培养应用型人才（2026-08-01/02）。</li>
-    <li>发布 2026 届毕业生"成绩单"：考研录取率 14.39%，构建"2+1+1"产教融合型课程体系（基础+实践+应用）。</li>
-    <li>暑期产教融合密集落地：职业技术学院与六家企业研讨课程革新与实训基地共建；商学部对接产业学院/财税项目；艺体学部创新设计产业学院学生带薪顶岗实习并发薪。</li>
-    <li>各学部访企拓岗覆盖医疗、生物医药、软件、新能源汽车等行业，打通实习就业渠道。</li>
-  </ul>
-  <p class="src">来源：www.hhstu.edu.cn/info/1054/23888.htm · news.hhstu.edu.cn/info/1077/31043.htm · www.sohu.com/a/1059998828_121925184 · learning.sohu.com/a/1061946344_121925184</p>
+    <div class="sub-h">中国民办教育协会</div>
+    <div class="item">
+      <h3>国际中文教育教师教学能力提升专项培训（第二期）在长春举办</h3>
+      <p>中华文化国际传播专业委员会拟于 <b>2026 年 8 月 14—16 日</b>在吉林外国语大学举办第二期培训，
+      由语合中心指导、吉林动画学院协办；招生优先面向全国民办院校汉教专业负责人、骨干教师，限招 50 人，
+      课程由语合中心提供并认证。</p>
+      <div class="src">来源：中国民办教育协会 · 通知发布于 8 月 14 日前后 ·
+        <a href="https://www.canedu.org.cn/site/content/8157.html">链接</a></div>
+    </div>
 
-  <h3>武昌首义学院</h3>
-  <ul>
-    <li><b>华为现代产业学院</b>在深圳华为总部揭牌（2026-08-11）。</li>
-    <li>与珠海格力智能装备签约共建<b>高端装备智能运维现代产业学院</b>（2026-08-04）。</li>
-    <li>三项成果获 2025 年湖北省教学成果奖一、二等奖（累计已获 10 项）。</li>
-    <li>新增 4 个专科专业：数字孪生应用技术、无人机测绘技术、数智营销、智慧健康养老服务与管理，精准对接数字经济、低空经济、银发经济（2026-08-07）。</li>
-    <li>艺术设计学院肖巍教授带本科生建"荆楚纹样基因库"与"楚镜AI"共创平台，探索传统纹样数字确权（2026-08-07）。</li>
-  </ul>
-  <p class="src">来源：zs.wsyu.edu.cn/main.htm · www.163.com/dy/article/L3O65JRF053469LG.html · www.toutiao.com/article/7671186002643485220</p>
-</section>
+    <div class="sub-h">河南省民办教育协会</div>
+    <div class="none">前 1 天（2026-08-14）官网未检索到新发动态，标注：近期无更新。
+      最近协会新闻为 2026 年 3 月"第七届会员大会"；课题类通知多为 4–8 月上旬（如 8 月 8 日安阳学院转发
+      2026 年度课题立项），均超窗口，不列入。</div>
+  </section>
 
-<!-- 五 -->
-<section>
-  <h2>五、产教融合专项动态<span class="en">V. Industry-Education Integration Spotlight</span></h2>
+  <!-- 四 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">4</div><h2>其他民办高校动态 · 软科前 30 轮询（当日 4 所 · 过去一周）</h2></div>
+    <div class="rota">
+      <b>轮询算法</b>：将软科 2026 中国民办高校排名前 30 所按固定序号 0–29；
+      设 <code>d</code> = 自 2026-01-01 起天数（本日报 d=226），起始序号 <code>s=(d×4) mod 30=4</code>，
+      当日查询序号 <b>4–7</b> 共 4 所。按此算法连续轮询约 7–8 天覆盖全部 30 所，无需跨日存档。<br>
+      <b>今日轮询院校</b>：大连东软信息学院（4）、茅台学院（5）、西京学院（6）、黄河科技学院（7）。
+    </div>
 
-  <h3>① 国家层面政策与平台</h3>
-  <ul>
-    <li><b>职业教育专业目录增补</b>：27 个新专业依托行业产教融合共同体、市域产教联合体设置（2026-08-01）。</li>
-    <li><b>江苏</b>：2026 年新增职业本科 51 个，AI 专业集群、低空经济相关专业集中布点（2026-08-03）。</li>
-    <li><b>山西</b>：修订《实施〈职业教育法〉办法》（2026-08-03 通过，9 月 1 日施行），明确校企共建产业学院、市域产教联合体、行业产教融合共同体，建立"财政+用地+税费"组合激励机制（2026-08-14 科技日报解读）。</li>
-    <li><b>贵州</b>：印发《关于进一步深化贵州省现代职业教育体系建设改革的实施方案》（黔府发〔2026〕2号，2026-08-12），建设酱香白酒、磷化工、新型功能材料等市域产教联合体与行业产教融合共同体。</li>
-  </ul>
-  <p class="src">来源：www.toutiao.com/article/7669736594764562988 · finance.sina.com.cn/jjxw/2026-08-14/doc-ininhaiq4212855.shtml · www.gzhs.gov.cn</p>
+    <div class="sub-h">大连东软信息学院 <span class="tag">序号 4</span> <span class="tag g">辽宁 · 理工</span></div>
+    <div class="item">
+      <h3>8-11 中国机器人及人工智能大赛全国总决赛 · 具身智能赛道获国一、国三各 1 项</h3>
+      <p>与大连理工大学等 985 / 双一流高校同台，凭自研家庭服务机器人方案获奖，体现产教协同育人成效。</p>
+      <div class="src">来源：学校官网 / 未来网高校 · 2026-08-11/12 ·
+        <a href="https://www.toutiao.com/article/7673038435057271346/">链接</a></div>
+    </div>
+    <div class="item">
+      <h3>8-11 学生双创文创"东关街 AI 智能纸雕灯"联名大连明珠卡，8 月中下旬发行</h3>
+      <p>"又见智创"跨学科团队将城市文化视觉体系落地公共交通卡票面，打通"竞赛—商业化"转化路径。</p>
+      <div class="src">来源：半岛晨报 · 2026-08-11 ·
+        <a href="https://www.163.com/dy/article/L41SCL140514CRLH.html">链接</a></div>
+    </div>
+    <div class="item">
+      <h3>8-08 校长带队赴广州访企拓岗，深化大湾区校企合作</h3>
+      <p>聚焦人工智能、具身智能机器人、云计算、AI+跨境电商等前沿数字赛道，走访多家重点科技企业。</p>
+      <div class="src">来源：学校官网 · 2026-08-08</div>
+    </div>
+    <div class="item">
+      <h3>8-08 米兰设计周获 20 项国奖（国家级一等 2、二等 5、三等 13）</h3>
+      <div class="src">来源：学校官网 · 2026-08-08</div>
+    </div>
 
-  <h3>② 河南省产教融合政策与试点</h3>
-  <div class="note">本期检索未捕获河南省级产教融合专项新政单列发布；相关部署主要体现在"中国国际大学生创新大赛河南赛区"通知（推进职普融通、产教融合、科教融汇）及各校产业学院建设动态中。将持续关注河南省发展改革委/教育厅关于市域产教联合体、产教融合型企业的后续名单与政策。</div>
+    <div class="sub-h">茅台学院 <span class="tag">序号 5</span> <span class="tag g">贵州 · 综合</span></div>
+    <div class="item">
+      <h3>8-14 以"四个导向"深化产教融合，助力白酒产业高质量发展</h3>
+      <p>贵州省教育厅刊发专题：学校建成 <b>80 余个产教融合实践教学基地</b>，构建"专职教师 + 产业导师"
+      双导师机制；建立"科研—教学—产业"闭环转化，将白酒产业新技术拆解为微课程融入教学。</p>
+      <div class="src">来源：贵州省教育厅 · 2026-08-14 ·
+        <a href="https://jyt.guizhou.gov.cn/ywdt/zxlb/202608/t20260814_90733997.html">链接</a></div>
+    </div>
+    <div class="item">
+      <h3>学子陈治豪凭"酒糟资源化利用"项目获"创赢未来"2026 创业大赛贵州省二等奖</h3>
+      <p>聚焦酱酒产业固废高值化循环利用，已在遵义道真食用菌产业基地规模化应用，带动农户就业增收。</p>
+      <div class="src">来源：搜狐 · 近期（2026-08 内）</div>
+    </div>
 
-  <h3>③ 民办高校产教融合实践</h3>
-  <ul>
-    <li><b>武昌首义学院</b>：华为现代产业学院揭牌、格力高端装备智能运维现代产业学院签约，企业全程参与人才培养全链条。</li>
-    <li><b>黄河科技学院</b>："2+1+1"产教融合课程体系、创新设计产业学院带薪顶岗、校中企实景实训平台。</li>
-    <li><b>山东协和学院</b>：医教融合访企拓岗，探索"校院一体"培养与订单式人才输送。</li>
-    <li><b>珠海科技学院</b>：健康学院与粤澳中医药产业园党建共建，探索大湾区中医药大健康产教融合。</li>
-    <li><b>大连东软信息学院</b>：赴粤港澳大湾区访企拓岗，对接 AI/具身智能/云计算头部企业。</li>
-  </ul>
-</section>
+    <div class="sub-h">西京学院 <span class="tag">序号 6</span> <span class="tag g">陕西 · 理工</span></div>
+    <div class="item">
+      <h3>8-11 获批 2026 年度陕西省科技计划项目 31 项（自然科学基础研究 28 项）</h3>
+      <p>立项数量较上年同期增长 37.1%，涵盖重点研发、基础研究、技术创新引导等多类计划。</p>
+      <div class="src">来源：西京网 / 科研处 · 2026-08-11 ·
+        <a href="https://www.xijing.edu.cn:8001/info/1113/17387.htm">链接</a></div>
+    </div>
+    <div class="item">
+      <h3>8-11 机械工程学院获第十九届"高教杯"成图大赛多项国奖</h3>
+      <p>机械类赛道获国家级个人二等奖 4 项、三等奖 4 项，并荣获国家级团体二等奖。</p>
+      <div class="src">来源：西京学院机械工程学院 · 2026-08-11</div>
+    </div>
+    <div class="item">
+      <h3>8-03 机械工程学院访企拓岗，深化产教融合（智能交互设计）</h3>
+      <p>教师赴中国原点新城、西安晶奕科技等企业走访，围绕智能交互行业人才需求开展校企对接。</p>
+      <div class="src">来源：西京学院机械工程学院 · 2026-08-03/04</div>
+    </div>
 
-<!-- 六 -->
-<section>
-  <h2>六、重点关注与影响分析<span class="en">VI. Key Takeaways &amp; Impact</span></h2>
-  <ul>
-    <li><span class="dot"></span><b>对考生与家长：</b>数字孪生、无人机测绘、低空经济、智慧康养等新增专业直指就业风口；河南省高职（专科）批两轮征集志愿仍开放，未被录取考生可把握填报窗口。</li>
-    <li><span class="dot"></span><b>对民办高校：</b>"AI 赋能科研"与"现代产业学院"成为提质关键词——本周武昌首义学院连落华为、格力两家产业学院，黄河科技学院持续深化"2+1+1"产教融合体系，反映应用型民办高校正从"课程对接"走向"实体共建"。</li>
-    <li><span class="dot"></span><b>对投资者/合作方：</b>山西以"财政+用地+税费"组合激励产教融合型企业，贵州、江苏密集布局市域产教联合体，民办高校产业学院共建、订单班、实训基地带来校企合作与设备投入机会。</li>
-    <li><span class="dot"></span><b>区域信号：</b>河南作为生源大省，政策重心偏向创新大赛组织与高职招录兜底；本土黄河科技学院的产教融合范式具备省内示范与外溢价值。</li>
-  </ul>
-</section>
+    <div class="sub-h">黄河科技学院 <span class="tag">序号 7</span> <span class="tag g">河南 · 理工</span> <span class="tag w">河南本土</span></div>
+    <div class="item">
+      <h3>8-13 2026 年招生录取工作圆满完成，生源质量创新高</h3>
+      <p>面向全国 27 省招生，录取位次再创新高；报道提及学校搭建 <b>"2+1+1" 产教融合课程体系</b>，
+      人才培养成效持续彰显。</p>
+      <div class="src">来源：华禹教育网 · 2026-08-13 ·
+        <a href="http://www.huaue.com/gzxx2026/202681384819.htm">链接</a></div>
+    </div>
+    <div class="item">
+      <h3>8-01（近期补充，略超 1 周窗口）"中原对决"武道精英跆拳道争霸赛由产教融合办主持</h3>
+      <p>赛事由艺体学部自主打造，产教融合办主持开幕式并授牌人才输送基地，深化应用型人才培养
+      （因与本期轮询强相关，破例列入供参考；非严格过去一周窗口）。</p>
+      <div class="src">来源：黄河科技学院官网 / 顶端新闻 · 2026-08-01 ·
+        <a href="https://www.hhstu.edu.cn/info/1054/23888.htm">链接</a></div>
+    </div>
+  </section>
 
-<!-- 七 -->
-<section>
-  <h2>七、明日追踪线索<span class="en">VII. Tomorrow's Watchlist</span></h2>
-  <ul>
-    <li>教育部 2026 年度本科专业申报 8 月 31 日备案/审批截止，关注各省最终申报与公示动态。</li>
-    <li>中国民办教育协会第一届民办高校 AI 赋能科研学术会议案例征集 <b>9 月 7 日截止</b>，持续跟踪入围案例与会议议程。</li>
-    <li>山西《职业教育法实施办法》9 月 1 日施行后的首批落地项目与产教融合型企业认定。</li>
-    <li>软科前 30 本期未覆盖院校（茅台学院、武汉东湖学院、重庆人文科技学院、武昌理工学院、北京城市学院等）滚动补查。</li>
-    <li>河南省产教融合专项政策是否有新发（市域产教联合体/产教融合型企业名单）。</li>
-  </ul>
-</section>
+  <!-- 五 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">5</div><h2>产教融合专项动态（仅前 1 天）</h2></div>
 
-</main>
-<footer>
-  本报告由 WorkBuddy 自动化任务「Higher Education Policy Daily · 07:00」生成 · 仅供资讯参考，政策以官方发布为准<br>
-  Higher Education Policy &amp; Private University Daily Brief · www.liangzerui.com/reports/
-</footer>
+    <div class="sub-h">① 国家层面</div>
+    <div class="item">
+      <h3>职教专业目录增补明确依托市域产教联合体 / 行业产教融合共同体</h3>
+      <p>教育部 2026 年目录增补 27 个专业，提出依托联合体、共同体摸排人才缺口、增设专业
+      （城市更新行业产教融合共同体、德阳重大技术装备制造市域产教联合体等），把产业一线真实需求
+      转化为专业设置依据。</p>
+      <div class="src">来源：中国妇女网 / 新浪财经 · 2026-08-14</div>
+    </div>
+
+    <div class="sub-h">① 江苏</div>
+    <div class="item">
+      <h3>《江苏高水平大学建设方案(2026-2030年)》印发，强化现代产业学院与产教融合培养</h3>
+      <p>8 月 14 日江苏省政府印发方案，提出建设现代产业学院、未来技术学院、卓越工程师学院，
+      推广工学交替、校企联合育人、学生带薪实习等育人模式，打造"制造强省"特色产教融合培养模式。</p>
+      <div class="src">来源：江苏省政府 / 江苏省教育厅 · 2026-08-14</div>
+    </div>
+
+    <div class="sub-h">② 河南省</div>
+    <div class="none">前 1 天（2026-08-14）河南省无新增市域产教联合体 / 产教融合型企业名单发布，标注：前 1 天无更新。
+      近期背景（非当日）：已公布《河南省教育系统"技能照亮前程 出彩技能河南"职业技能提升培训行动方案》。</div>
+
+    <div class="sub-h">③ 民办高校实践</div>
+    <div class="none">前 1 天未见新增民办高校产业学院 / 订单班专项报道；相关进展见第四节轮询院校
+      （茅台学院"四个导向"产教融合、黄河科技学院"2+1+1"体系均于本周发布）。</div>
+  </section>
+
+  <!-- 六 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">6</div><h2>重点关注与影响分析</h2></div>
+    <div class="item">
+      <h3>政策信号：产教融合从"配套"走向"主线"</h3>
+      <p>教育部职教目录增补与江苏高水平大学方案同日释放强信号——专业设置从被动适配转向主动引领，
+      市域产教联合体 / 行业共同体成为人才供给侧改革的核心载体，且强调"实体化运行、动态管理"。</p>
+    </div>
+    <div class="item">
+      <h3>院校侧：头部民办高校"竞赛驱动 + 产业学院 + 访企拓岗"三轮并进</h3>
+      <p>本期轮询的东软、茅台、西京、黄科均呈现清晰的应用型定位：东软以科创竞赛与大湾区校企合作为抓手，
+      茅台以"四个导向"构建酒产业链产教融合闭环，西京以省级科研项目与工程竞赛提质，黄科以"2+1+1"
+      课程体系对接河南"7+28+N"产业链群。茅台学院模式可作为行业特色民办高校产教融合范本。</p>
+    </div>
+    <div class="item">
+      <h3>对考生 / 院校 / 投资者</h3>
+      <p><b>考生</b>：江苏方案与职教新专业释放就业导向信号，志愿填报可重点关注产业对口专业。
+      <b>院校</b>：专业动态调整 + 双导师制渐成标配，需加快建立产业人才需求感知机制。
+      <b>投资者</b>：产教融合型实训基地、现代产业学院建设带来设备与服务平台需求。</p>
+    </div>
+  </section>
+
+  <!-- 七 -->
+  <section class="card">
+    <div class="sec-h"><div class="sec-n">7</div><h2>明日追踪线索</h2></div>
+    <div class="item">
+      <ul style="margin:4px 0;padding-left:20px">
+        <li>教育部本科专业设置公示后续：47 所高校新增专业的最终备案结果。</li>
+        <li>江苏高水平大学建设方案配套细则（高峰计划、拔尖特色学科遴选标准）。</li>
+        <li>软科前 30 轮询次日（d=227, s=8）将覆盖序号 8 起的 4 所——武汉东湖学院、重庆人文科技学院、
+          武昌首义学院、武昌理工学院，关注其本周动态。</li>
+        <li>市域产教联合体：重庆 / 山西 / 海南本年度申报与认定进展。</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    本报告由自动化任务「Higher Education Policy Daily · 01:00」手动验证生成 ·
+    本地 D:/Work/2026-08-15-policy.html → 上传 reports/2026-08-15-policy.html ·
+    域名 www.liangzerui.com
+  </footer>
+
+</div>
 </body>
 </html>
