@@ -231,8 +231,11 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "main"
 collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
