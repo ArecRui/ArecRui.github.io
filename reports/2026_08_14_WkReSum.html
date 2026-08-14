@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Strategy Weekly Report · 2026-08-14</title>
+<style>
+:root{--bg:#0f1115;--card:#1a1d24;--fg:#e8eaed;--mut:#9aa0a6;--acc:#4ea1ff;--grn:#3ecf8e;--org:#ffb454;--red:#ff6b6b;--pur:#b78bff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:'Segoe UI',system-ui,'Microsoft YaHei',sans-serif;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:32px 20px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:26px 0 10px;color:var(--acc);border-left:4px solid var(--acc);padding-left:10px}
+h3{font-size:15px;color:var(--org);margin:14px 0 6px}
+.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+.card{background:var(--card);border-radius:12px;padding:15px 17px;margin:11px 0;border:1px solid #262a33}
+.tag{display:inline-block;background:#23304a;color:var(--acc);font-size:11px;padding:2px 7px;border-radius:6px;margin:2px 3px 2px 0}
+.t-t{background:#2a2340;color:var(--pur)}
+.t-m{background:#1f3326;color:var(--grn)}
+.t-g{background:#33271f;color:var(--org)}
+table{width:100%;border-collapse:collapse;margin:9px 0;font-size:13px}
+th,td{border:1px solid #2a2f3a;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#222732;color:var(--acc)}
+.metric{color:var(--grn);font-weight:600}
+.q{color:var(--org);font-weight:600}
+footer{color:var(--mut);font-size:12px;margin-top:28px;border-top:1px solid #262a33;padding-top:10px}
+ul{margin:5px 0;padding-left:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Research Strategy Weekly Report</h1>
+<div class="sub">科研战略周报 · 2026-08-14（YYYY_MM_DD_WkReSum）· 学术评估框架版</div>
+
+<div class="card">
+<b>本周战略主题：</b>AI 生成错误信息进入「语言学指纹检测」范式；平台化拐点（DNR 2026）重塑新闻中介研究。基于本期文献，建议把「中国语境 AI 错误信息」设为旗舰方向，其理论贡献度与情境原创性双高，构成 5 年护城河。
+</div>
+
+<h2>第一部分：本周重点论文深度分析</h2>
+<div class="card">
+<h3>A. Ma et al. (2026) Nature Communications — AI 错误信息语言特征</h3>
+<ul>
+<li>研究问题：零样本 LLM 检测 AI 虚假信息的固有限度与语言调制机制。</li>
+<li>理论：T11 第三人效果 + T1 使用与满足（核查需求）。<span class="tag t-t">T11</span><span class="tag t-t">T1</span></li>
+<li>方法：M2 计算传播（心理语言学 + 计算语言学 + 零样本提示）。</li>
+<li>创新：首个中英双语 AI 错误信息数据集；揭示质量调制致检测器失效。</li>
+<li>不足：未覆盖多模态；零样本场景有限。</li>
+<li>未来机会（标注）：<b>新变量</b>——跨文化语言指纹；<b>新情境</b>——中国短视频平台。<span class="tag t-m">M2</span><span class="tag t-g">G3 情境空白</span>中国情境直接迁移性：高。</li>
+</ul>
+<h3>B. Chrysidis et al. (2026) CONVEX / CVPR AIMS</h3>
+<ul>
+<li>理论：T7 培养（长期共识）+ T12 平台网络外部性。<span class="tag t-t">T7</span><span class="tag t-t">T12</span></li>
+<li>方法：M3 大规模行为数据（15 万条 X 帖子）。</li>
+<li>创新：量化 AI 错误信息传播优势 + 检测退化长期证据。</li>
+<li>中国情境直接迁移性：高（微博/抖音 Community Notes 类比可行）。</li>
+</ul>
+</div>
+
+<h2>第二部分：研究机会雷达（理论贡献类型 + 范式 + 迁移）</h2>
+<div class="card">
+<table>
+<tr><th>机会</th><th>理论贡献类型</th><th>范式</th><th>中国情境迁移</th></tr>
+<tr><td>中文 AI 错误信息语言指纹基准</td><td class="q">新变量 + 新情境</td><td>M2 计算</td><td>高</td></tr>
+<tr><td>短视频健康谣言 MEP 线索组合</td><td>新情境</td><td>M4 实验</td><td>高</td></tr>
+<tr><td>创作者新闻中介信任机制</td><td>理论修正</td><td>M3+M4</td><td>中</td></tr>
+<tr><td>检测系统退化追踪（纵向）</td><td>新方法</td><td>M3 行为数据</td><td>高</td></tr>
+</table>
+</div>
+
+<h2>第三部分：个人研究战略调整建议</h2>
+<div class="card">
+<p>结合研究背景，并引用 D:/Research/学术评估框架.md：</p>
+<ul>
+<li><b>1. 最值得投入的三个方向（长期研究壁垒逻辑）</b>：
+  <ol>
+    <li><b>中国语境 AI 错误信息检测</b>：壁垒=独家中文多模型语料 + 跨文化基准，标注理论贡献度 <span class="metric">高</span>。</li>
+    <li><b>平台化新闻信任</b>：壁垒=纵向追踪数据 + 代际对比，理论贡献度中高。</li>
+    <li><b>健康 misinformation 线索组合</b>：壁垒=实验范式可复制，理论贡献度中。</li>
+  </ol>
+</li>
+<li><b>2. 应暂时放弃</b>：纯「内容真实性判断」的旧检测路线（已被结构特征范式取代）。</li>
+<li><b>3. 竞争过于激烈的方向（竞争强度矩阵：理论成熟度 × 中国学者拥挤度）</b>：
+  <ul>
+    <li>通用 AI 文本检测（理论成熟 + 中国学者极拥挤）→ <span class="q">慎入</span>。</li>
+    <li>西方语境 misinformation 综述（理论成熟 + 红海）→ <span class="q">差异化不足</span>。</li>
+  </ul>
+</li>
+<li><b>4. 存在中国研究机会的方向（G3 情境空白逻辑）</b>：
+  <ul>
+    <li>中文大模型造假的语言/多模态指纹 —— 本土数据稀缺，G3 空白显著。</li>
+    <li>抖音/微博 Community Notes 式治理 —— 平台机制本土化。</li>
+  </ul>
+</li>
+</ul>
+</div>
+
+<h2>第四部分：论文机会雷达（锚定目标期刊）</h2>
+<div class="card">
+<h3>SSCI 方向（3 个）</h3>
+<p><b>方向1：中文 AI 错误信息语言指纹与检测基准</b><br>
+理论：T11+T9；方法：M2(NLP 分类)；创新点：首个中文跨模型基准。<br>
+<span class="tag t-t">目标期刊：Computers in Human Behavior (SSCI 一区)</span> 录用偏好：大规模数据集 + 可复现 + 行为交叉。</p>
+<p><b>方向2：平台化拐点下创作者新闻中介信任</b><br>
+理论：T4+T8；方法：M3 调查 + M4 实验。<br>
+<span class="tag t-t">目标期刊：Digital Journalism (SSCI 二区)</span> 录用偏好：新闻业态变革 + 实证严谨。数据来源可行性：DNR 中国样本 + 自建问卷。</p>
+<p><b>方向3：AI 错误信息检测系统退化纵向追踪</b><br>
+理论：T7+T12；方法：M3 行为数据（月度追踪）。<br>
+<span class="tag t-t">目标期刊：Information, Communication &amp; Society (SSCI 二区)</span> 录用偏好：方法创新 + 长期数据。</p>
+
+<h3>CSSCI 方向（3 个，含目标期刊 + 偏好 + 数据可行性）</h3>
+<p><b>方向1：短视频健康谣言的媒介线索组合效应</b><br>
+理论：T5+T3；方法：M4 在线实验（2×2×3 扩展）。<br>
+<span class="tag">目标期刊：《国际新闻界》</span> 偏好本土实证+理论对话；数据可行性：高（问卷星 + 短视频素材）。</p>
+<p><b>方向2：AI 生成新闻的可信度与第三人效果</b><br>
+理论：T11+T3；方法：M4 实验。<br>
+<span class="tag">目标期刊：《新闻与传播研究》</span> 偏好理论贡献；数据可行性：中（需伦理审批）。</p>
+<p><b>方向3：平台化背景下新闻信任代际差异</b><br>
+理论：T4+T2；方法：M3 调查。<br>
+<span class="tag">目标期刊：《现代传播》</span> 偏好现实关照；数据可行性：高（可借 DNR 中国数据二次分析）。</p>
+</div>
+
+<h2>第五部分：知识体系构建</h2>
+<div class="card">
+<ul>
+<li><b>理论树</b>：以 T1–T12 为骨架，重点深耕 T4(沉默螺旋)/T7(培养)/T11(第三人效果) 与 AI 信息治理交汇。</li>
+<li><b>方法栈</b>：M2(NLP 分类/表征) + M3(行为数据) 为主，M4(实验) 为辅。</li>
+<li><b>数据资产</b>：筹建中文 AI 错误信息语料库（对标 CONVEX）。</li>
+</ul>
+</div>
+
+<h2>第六部分：本周行动建议</h2>
+<div class="card">
+<ol>
+<li>提交中文 AI 错误信息语料库的数据/伦理审批（旗舰方向启动）。</li>
+<li>复现 CONVEX 方法于微博数据，验证检测退化曲线本土适用性。</li>
+<li>撰写方向1 SSCI 一区论文 proposal。</li>
+</ol>
+</div>
+
+<h2>第七部分：5 年方向稳健性评估（理论透镜，引用 T/M）</h2>
+<div class="card">
+<p>对第三部分锁定方向用「理论生命周期 / 情景规划」判断 5 年后状态：</p>
+<table>
+<tr><th>方向</th><th>5 年后状态</th><th>类别</th><th>理由（T/M）</th></tr>
+<tr><td>中文AI错误信息检测</td><td class="metric">主流稳健</td><td>护城河</td><td>语言/制度差异使本土基准长期不可替代（T9 媒介依赖 + M2 数据壁垒）</td></tr>
+<tr><td>平台化新闻信任</td><td>需迭代</td><td>需迭代</td><td>平台算法快变，理论框架(T4/T8)稳健但测量需随平台更新</td></tr>
+<tr><td>健康谣言线索组合</td><td class="metric">主流稳健</td><td>稳健</td><td>MEP 经典范式(T5)长青，健康 misinformation 持续高热</td></tr>
+<tr><td>通用AI文本检测</td><td class="q">高风险</td><td>慎入</td><td>生成模型进化致专用检测器退化(T12 技术颠覆)，已被 VLM 反超</td></tr>
+</table>
+<p><b>结论</b>：旗舰方向（中文 AI 错误信息）5 年后仍主流稳健，应作为知识体系建设(第五部分)核心；通用检测方向高风险，仅作方法对照而非主投。</p>
+</div>
+
+<footer>
+本报告由科研战略周报（automation-1786601658330）依据 D:/Research/学术评估框架.md 生成。理论归属用 T 编号、范式用 M 编号、空白类型用 G 编号、期刊用层级名称。严禁虚构；本期均引用真实文献与报告。
+</footer>
+</div>
+</body>
+</html>
