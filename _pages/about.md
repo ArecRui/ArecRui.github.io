@@ -8,7 +8,7 @@ layout: single
 
 <a href="/docs/resume/" class="btn btn--primary">Download CV / Resume</a>
 
-I am a communication and new media researcher whose work sits at the intersection of **media effects** and **institutional communication**. My training is in Communication and New Media (MA, City University of Hong Kong), and my current role is in university governance at Zhongyuan Institute of Science and Technology — which gives me a double vantage point: I study communication, and I also practice it inside an institution.
+I am a communication and new media researcher whose work sits at the intersection of **media effects** and **institutional communication**. My training is in Communication and New Media (MA, City University of Hong Kong), and my current role is in higher education practice and institutional development at Zhongyuan Institute of Science and Technology — which gives me a double vantage point: I study communication, and I also practice it inside an institution.
 
 ## How I got here
 My path runs from the studio to the seminar room to the administration floor:
