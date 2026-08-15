@@ -9,10 +9,10 @@ header:
 ---
 
 <style>
-/* 首页大图：高度约原来的 3 倍，标题垂直居中；水平位置交给主题 .wrapper，
-   与下方正文统一对齐到同一左边缘 */
+/* 首页大图：在原有高度基础上再高约 40%（clamp 各值 ×1.4），
+   标题垂直居中、文字左对齐，留出更多空间避免压到大图中间内容 */
 .page__hero--overlay {
-  min-height: clamp(320px, 50vh, 560px);
+  min-height: clamp(448px, 70vh, 784px);
   display: flex;
   align-items: center;
 }
