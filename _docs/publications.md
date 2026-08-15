@@ -1,13 +1,13 @@
 ---
-title: "Publications"
+title: "Selected Publications"
 permalink: /docs/publications/
 layout: single
 toc: true
 ---
 
-# Publications
+# Selected Publications
 
-*Full formal record (chronological, with teaching and experience) is on the [CV / Resume](/docs/resume/). This page is the browsable, themed, linkable version for colleagues and search engines.*
+*The full formal record (chronological, with teaching and experience) is on the [CV / Resume](/docs/resume/). This page is the browsable, themed, linkable version for colleagues and search engines.*
 
 [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=KI7PkO4AAAAJ)
 
