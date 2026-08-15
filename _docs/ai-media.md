@@ -6,8 +6,6 @@ toc: true
 breadcrumbs: false
 ---
 
-# AI & Media Lab
-
 An evolving space where I connect communication research with hands-on AI practice. The goal is not a formal lab with staff, but a personal workspace for experiments that feed back into my research and teaching.
 
 ## AI Communication Research
