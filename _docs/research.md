@@ -1,9 +1,13 @@
 ---
+
 title: "Research"
 permalink: /docs/research/
 layout: single
 toc: true
+breadcrumbs: false
+
 ---
+
 
 # Research
 
