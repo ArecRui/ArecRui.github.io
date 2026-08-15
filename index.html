@@ -48,11 +48,6 @@ header:
   margin: 0 0 1.5em 0 !important;
   box-sizing: border-box;
 }
-/* 第 5 张卡片占满整行，避免末行孤张半宽留白 */
-.feature__wrapper .feature__item:nth-child(5) {
-  flex: 0 0 100% !important;
-  max-width: 100% !important;
-}
 /* 卡片配图：统一高度 + 裁切填充，5 张图尺寸一致、不变形 */
 .feature__wrapper .archive__item-teaser {
   margin-bottom: 0.75em;
@@ -70,8 +65,7 @@ header:
   .feature__wrapper .feature__item,
   .feature__wrapper .feature__item:nth-child(3n+1),
   .feature__wrapper .feature__item:nth-child(3n+2),
-  .feature__wrapper .feature__item:nth-child(3n+3),
-  .feature__wrapper .feature__item:nth-child(5) {
+  .feature__wrapper .feature__item:nth-child(3n+3) {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
