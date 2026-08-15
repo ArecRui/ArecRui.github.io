@@ -1,12 +1,9 @@
 ---
-
 title: "Research Notes"
 permalink: /docs/research-notes/
 layout: single
 breadcrumbs: false
-
 ---
-
 
 # Research Notes
 
