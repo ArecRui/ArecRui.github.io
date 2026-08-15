@@ -9,23 +9,31 @@ header:
 ---
 
 <style>
-.feature__wrapper {
+/* 首页大图：增加显示高度（约原来的 3 倍）并垂直居中标题 */
+.page__hero--overlay {
+  min-height: clamp(320px, 50vh, 560px);
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Explore 区域：强制 2x2 布局，覆盖主题默认的 float 三列 + margin-right:-100% hack */
+.feature__wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
   justify-content: space-between;
-  margin-top: 1em;
+  border-bottom: none !important;
 }
-.feature__wrapper .feature__item {
-  flex: 0 0 calc(50% - 0.75em);
-  max-width: calc(50% - 0.75em);
-  margin-bottom: 1.5em;
+.feature__wrapper .feature__item,
+.feature__wrapper .feature__item:nth-child(3n+1),
+.feature__wrapper .feature__item:nth-child(3n+2),
+.feature__wrapper .feature__item:nth-child(3n+3) {
+  flex: 0 0 calc(50% - 0.75em) !important;
+  max-width: calc(50% - 0.75em) !important;
+  width: auto !important;
+  float: none !important;
+  clear: none !important;
+  margin: 0 0 1.5em 0 !important;
   box-sizing: border-box;
-}
-@media (max-width: 767px) {
-  .feature__wrapper .feature__item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
 }
 .feature__wrapper .archive__item-teaser {
   margin-bottom: 0.75em;
@@ -36,6 +44,15 @@ header:
   width: 100%;
   height: auto;
   display: block;
+}
+@media (max-width: 767px) {
+  .feature__wrapper .feature__item,
+  .feature__wrapper .feature__item:nth-child(3n+1),
+  .feature__wrapper .feature__item:nth-child(3n+2),
+  .feature__wrapper .feature__item:nth-child(3n+3) {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
 </style>
 
