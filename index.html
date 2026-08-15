@@ -9,19 +9,12 @@ header:
 ---
 
 <style>
-/* 首页大图：高度约原来的 3 倍，标题垂直居中、明显靠左（贴大图左侧+缩进，避开中间内容） */
+/* 首页大图：高度约原来的 3 倍，标题垂直居中；水平位置交给主题 .wrapper，
+   与下方正文统一对齐到同一左边缘 */
 .page__hero--overlay {
   min-height: clamp(320px, 50vh, 560px);
   display: flex;
   align-items: center;
-}
-/* hero 内容贴大图左侧、带左缩进，不随 1280px 内容容器居中 */
-.page__hero--overlay .wrapper {
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 3em !important;
-  padding-right: 3em !important;
 }
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead {
@@ -67,10 +60,6 @@ header:
   .feature__wrapper .feature__item:nth-child(3n+3) {
     flex: 0 0 100% !important;
     max-width: 100% !important;
-  }
-  .page__hero--overlay .wrapper {
-    padding-left: 1.5em !important;
-    padding-right: 1.5em !important;
   }
 }
 </style>
