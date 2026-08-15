@@ -4,9 +4,74 @@ permalink: /
 title: "Communication Researcher — AI, Media and Digital Society"
 header:
   overlay_color: "#15616d"
+  overlay_image: /images/header3.jpg
   title: "Zerui Liang"
   excerpt: "Communication Researcher | AI, Media and Digital Society"
 ---
+
+<style>
+/* 大图：恢复合理高度，标题贴左上、与导航/正文同宽，避免压在大图中央内容 */
+.page__hero--overlay {
+  min-height: clamp(320px, 50vh, 560px);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4em;
+}
+.page__hero--overlay .wrapper {
+  max-width: 1280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  text-align: left !important;
+}
+
+/* Explore 区块：强制 2x2 布局，覆盖主题默认三列 float + margin-right:-100% hack */
+.feature__wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  border-bottom: none !important;
+}
+.feature__wrapper .feature__item,
+.feature__wrapper .feature__item:nth-child(3n+1),
+.feature__wrapper .feature__item:nth-child(3n+2),
+.feature__wrapper .feature__item:nth-child(3n+3) {
+  flex: 0 0 calc(50% - 0.75em) !important;
+  max-width: calc(50% - 0.75em) !important;
+  width: auto !important;
+  float: none !important;
+  clear: none !important;
+  margin: 0 0 1.5em 0 !important;
+  box-sizing: border-box;
+}
+/* 卡片配图：统一高度 + 裁切填充，4 张图尺寸一致、不变形（同步修改显示大小） */
+.feature__wrapper .archive__item-teaser {
+  margin-bottom: 0.75em;
+  overflow: hidden;
+  border-radius: 4px;
+  height: 220px;
+}
+.feature__wrapper .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 767px) {
+  .feature__wrapper .feature__item,
+  .feature__wrapper .feature__item:nth-child(3n+1),
+  .feature__wrapper .feature__item:nth-child(3n+2),
+  .feature__wrapper .feature__item:nth-child(3n+3) {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .page__hero--overlay { padding-top: 2.5em !important; }
+}
+</style>
 
 <p>I explore how media technologies and artificial intelligence reshape human cognition, communication and social interaction. My research focuses on how people select, interpret and respond to mediated information environments — from media effects and health communication to selective exposure and AI-mediated communication. Trained in Communication and New Media at City University of Hong Kong, I work at the intersection of communication research and higher education practice.</p>
 
@@ -26,21 +91,33 @@ header:
 <h2>Explore</h2>
 <div class="feature__wrapper">
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/3.jpg" alt="About">
+    </div>
     <h3>About</h3>
     <p>The story behind the work — from broadcasting to communication research to higher education practice.</p>
     <p><a href="/about/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/2.jpg" alt="Research">
+    </div>
     <h3>Research</h3>
     <p>Three connected themes: AI-mediated communication, selective exposure, and health &amp; risk communication.</p>
     <p><a href="/docs/research/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/1.jpg" alt="Publications">
+    </div>
     <h3>Publications</h3>
     <p>Selected journal articles and conference papers, grouped by theme with links.</p>
     <p><a href="/docs/publications/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/RGB.jpg" alt="CV / Resume">
+    </div>
     <h3>CV / Resume</h3>
     <p>The full formal record — education, experience, and outputs.</p>
     <p><a href="/docs/resume/" class="btn btn--primary">Read more</a></p>
