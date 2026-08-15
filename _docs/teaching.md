@@ -5,8 +5,6 @@ layout: single
 breadcrumbs: false
 ---
 
-# Teaching
-
 I support a teaching-oriented academic path, connecting communication theory with the practical demands of new-media and AI-era classrooms. Courses I develop and teach include:
 
 - **Communication Theory** — classical and contemporary approaches to media, messages and effects.
