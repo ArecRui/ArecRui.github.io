@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Henry"
+title                    : "Zerui Liang"
 title_separator          : "-"
-name                     : "Henry"
-description              : "This is a personal website of Mr. Henry Liang. This website is designed to collect all the learning notes."
+name                     : "Zerui Liang"
+description              : "Personal site of Zerui Liang (梁泽睿) — higher education professional, communication & new media researcher."
 url                      : "https://www.liangzerui.com" #"http://127.0.0.1:4000/"  #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,10 +63,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Henry Liang"
+  name             : "Zerui Liang"
   avatar           : "bio-photo.jpg"
-  bio              : "A Student"
-  location         : "Hong Kong"
+  bio              : "Higher Education Professional | Communication & New Media"
+  location         : "Zhengzhou, China"
   email            :
   uri              :
   bitbucket        :
