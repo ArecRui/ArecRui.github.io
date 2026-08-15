@@ -9,14 +9,17 @@ main:
   - title: "Publications"
     url: /docs/publications/
 
-  - title: "Technology"
-    url: /docs/tech/
+  - title: "Teaching"
+    url: /docs/teaching/
 
-  - title: "Art"
-    url: /docs/art/
+  - title: "AI & Media Lab"
+    url: /docs/ai-media/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Research Notes"
+    url: /docs/research-notes/
 
-  - title: "Resume"
+  - title: "CV"
     url: /docs/resume/
+
+  - title: "Contact"
+    url: /contact/
