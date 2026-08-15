@@ -5,8 +5,6 @@ layout: single
 breadcrumbs: false
 ---
 
-# Contact
-
 - **Email:** liangzerui@sina.com
 - **LinkedIn:** [linkedin.com/in/liangzerui](https://linkedin.com/in/liangzerui)
 - **Google Scholar:** [scholar.google.com/citations?user=KI7PkO4AAAAJ](https://scholar.google.com/citations?hl=en&user=KI7PkO4AAAAJ)
