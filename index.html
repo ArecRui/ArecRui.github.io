@@ -3,10 +3,41 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#15616d"
-  overlay_image: /images/header3.jpg
+  overlay_image: header3.jpg
   title: "Zerui Liang"
   excerpt: "Communication and New Media Researcher | Higher Education Governance and International Education"
 ---
+
+<style>
+.feature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.feature__wrapper .feature__item {
+  flex: 0 0 calc(50% - 0.75em);
+  max-width: calc(50% - 0.75em);
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .feature__wrapper .feature__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.feature__wrapper .archive__item-teaser {
+  margin-bottom: 0.75em;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.feature__wrapper .archive__item-teaser img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
 
 <p>I study how people <strong>select, interpret, and are shaped by media</strong> - from risk communication and news framing to the algorithmic, AI-mediated environments reshaping attention today. Trained in Communication and New Media at City University of Hong Kong, I now work at the intersection of communication research and university governance at Zhongyuan Institute of Science and Technology.</p>
 
@@ -26,21 +57,33 @@ header:
 <h2>Explore</h2>
 <div class="feature__wrapper">
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/3.jpg" alt="About">
+    </div>
     <h3>About</h3>
     <p>The story behind the work - from broadcasting to communication research to university governance.</p>
     <p><a href="/about/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/2.jpg" alt="Research Agenda">
+    </div>
     <h3>Research Agenda</h3>
     <p>My forward-looking thesis: selective exposure in the algorithmic age.</p>
     <p><a href="/docs/research/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/1.jpg" alt="Publications">
+    </div>
     <h3>Publications</h3>
     <p>Papers and conference work, grouped by theme with links.</p>
     <p><a href="/docs/publications/" class="btn btn--primary">Read more</a></p>
   </div>
   <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/RGB.jpg" alt="CV / Resume">
+    </div>
     <h3>CV / Resume</h3>
     <p>The full formal record - education, experience, and outputs.</p>
     <p><a href="/docs/resume/" class="btn btn--primary">Read more</a></p>
