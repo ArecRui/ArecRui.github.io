@@ -1,12 +1,9 @@
 ---
-
 title: "Contact"
 permalink: /contact/
 layout: single
 breadcrumbs: false
-
 ---
-
 
 # Contact
 
