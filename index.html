@@ -9,22 +9,14 @@ header:
 ---
 
 <style>
-/* 首页大图：增加显示高度（约原来的 3 倍），标题垂直居中、水平靠左 */
+/* 首页大图：增加显示高度（约原来的 3 倍），标题垂直居中 */
 .page__hero--overlay {
   min-height: clamp(320px, 50vh, 560px);
   display: flex;
   align-items: center;          /* 垂直居中 */
-  justify-content: flex-start;  /* 水平靠左 */
-  text-align: left;
 }
-/* 覆盖主题 wrapper 的 margin:0 auto 居中，让标题贴着大图左侧 */
-.page__hero--overlay .wrapper,
-.page__hero--overlay .page__hero__inner {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  text-align: left !important;
-  align-self: flex-start;
-}
+/* hero 内文字左对齐；水平位置交给主题 .wrapper，
+   使其与左上角导航站名、下方正文统一对齐到同一左边缘 */
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead {
   text-align: left !important;
