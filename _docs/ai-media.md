@@ -1,9 +1,13 @@
 ---
+
 title: "AI & Media Lab"
 permalink: /docs/ai-media/
 layout: single
 toc: true
+breadcrumbs: false
+
 ---
+
 
 # AI & Media Lab
 
