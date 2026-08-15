@@ -1,10 +1,9 @@
 ---
-title: "About"
+title: "About Zerui Liang"
 permalink: /about/
 layout: single
+breadcrumbs: false
 ---
-
-# About Zerui Liang
 
 <a href="/docs/resume/" class="btn btn--primary">Download CV / Resume</a>
 
