@@ -5,12 +5,17 @@ layout: single
 breadcrumbs: false
 ---
 
-I support a teaching-oriented academic path, connecting communication theory with the practical demands of new-media and AI-era classrooms. Courses I develop and teach include:
+I have taught communication and multimedia courses at both undergraduate and graduate levels. My teaching record includes the following courses.
 
-- **Communication Theory** — classical and contemporary approaches to media, messages and effects.
-- **New Media Studies** — platforms, algorithms and the changing public sphere.
-- **Media Writing** — from news framing to digital storytelling.
-- **Digital Communication** — strategy, analytics and audience behavior.
-- **AI and Communication** — how generative AI reshapes content production, literacy and human–AI interaction.
+## City University of Hong Kong (2016–2020)
 
-*Course materials and syllabi are being developed and will be added here.*
+- **COM2105 Visual Communication** — undergraduate course on visual design, imaging, and message construction across media.
+- **COM4305 Current Affairs Documentary Production** — undergraduate course on documentary storytelling and current-affairs production.
+- **COM5502 Multimedia Communication** — graduate course on multimedia content, platforms, and communication strategy.
+- **COM5509 Digital Visual Media** — graduate course on digital visual media production and aesthetics.
+
+## Communication Fundamentals
+
+- Introductory course covering the core principles of human communication — interpersonal, group, and mass communication — for foundational-level students.
+
+*Course materials and syllabi will be added here in due course.*
