@@ -29,7 +29,7 @@ header:
   text-align: left !important;
 }
 
-/* Explore 区块：强制 2x2 布局，覆盖主题默认三列 float + margin-right:-100% hack */
+/* Explore 区块：强制 2 列布局，覆盖主题默认三列 float + margin-right:-100% hack */
 .feature__wrapper {
   display: flex !important;
   flex-wrap: wrap !important;
@@ -48,7 +48,12 @@ header:
   margin: 0 0 1.5em 0 !important;
   box-sizing: border-box;
 }
-/* 卡片配图：统一高度 + 裁切填充，4 张图尺寸一致、不变形（同步修改显示大小） */
+/* 第 5 张卡片占满整行，避免末行孤张半宽留白 */
+.feature__wrapper .feature__item:nth-child(5) {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+/* 卡片配图：统一高度 + 裁切填充，5 张图尺寸一致、不变形 */
 .feature__wrapper .archive__item-teaser {
   margin-bottom: 0.75em;
   overflow: hidden;
@@ -65,7 +70,8 @@ header:
   .feature__wrapper .feature__item,
   .feature__wrapper .feature__item:nth-child(3n+1),
   .feature__wrapper .feature__item:nth-child(3n+2),
-  .feature__wrapper .feature__item:nth-child(3n+3) {
+  .feature__wrapper .feature__item:nth-child(3n+3),
+  .feature__wrapper .feature__item:nth-child(5) {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
@@ -76,6 +82,7 @@ header:
 <p>I explore how media technologies and artificial intelligence reshape human cognition, communication and social interaction. My research focuses on how people select, interpret and respond to mediated information environments — from media effects and health communication to selective exposure and AI-mediated communication. Trained in Communication and New Media at City University of Hong Kong, I work at the intersection of communication research and higher education practice.</p>
 
 <p>
+  <a href="/about/" class="btn">About</a>
   <a href="/docs/resume/" class="btn btn--primary"><i class="fas fa-download"></i> Download CV</a>
   <a href="https://scholar.google.com/citations?hl=en&user=KI7PkO4AAAAJ" class="btn">Google Scholar</a>
   <a href="mailto:liangzerui@sina.com" class="btn">Email</a>
@@ -90,14 +97,6 @@ header:
 
 <h2>Explore</h2>
 <div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="archive__item-teaser">
-      <img src="/images/3.jpg" alt="About">
-    </div>
-    <h3>About</h3>
-    <p>The story behind the work — from broadcasting to communication research to higher education practice.</p>
-    <p><a href="/about/" class="btn btn--primary">Read more</a></p>
-  </div>
   <div class="feature__item">
     <div class="archive__item-teaser">
       <img src="/images/2.jpg" alt="Research">
@@ -116,10 +115,26 @@ header:
   </div>
   <div class="feature__item">
     <div class="archive__item-teaser">
-      <img src="/images/RGB.jpg" alt="CV / Resume">
+      <img src="/images/4.jpg" alt="Teaching">
     </div>
-    <h3>CV / Resume</h3>
-    <p>The full formal record — education, experience, and outputs.</p>
-    <p><a href="/docs/resume/" class="btn btn--primary">Read more</a></p>
+    <h3>Teaching</h3>
+    <p>Courses and teaching at the intersection of communication, media technology and higher-education practice.</p>
+    <p><a href="/docs/teaching/" class="btn btn--primary">Read more</a></p>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/RGB.jpg" alt="AI &amp; Media Lab">
+    </div>
+    <h3>AI &amp; Media Lab</h3>
+    <p>Experiments at the boundary of AI, media production and communication — including AI comic-drama and generative media.</p>
+    <p><a href="/docs/ai-media/" class="btn btn--primary">Read more</a></p>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item-teaser">
+      <img src="/images/3.jpg" alt="Research Notes">
+    </div>
+    <h3>Research Notes</h3>
+    <p>Working notes, drafts and reflections from ongoing research — iterative and open.</p>
+    <p><a href="/docs/research-notes/" class="btn btn--primary">Read more</a></p>
   </div>
 </div>
