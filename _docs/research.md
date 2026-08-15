@@ -1,27 +1,39 @@
 ---
-title: "Research Agenda"
+title: "Research"
 permalink: /docs/research/
 layout: single
 toc: true
 ---
 
-# Research Agenda
+# Research
 
-*This page is forward-looking: it states the problem I am attacking and the framework I am building. It is not a list of past outputs (that is the [Publications](/docs/publications/) page and the [CV](/docs/resume/)).*
+I study how people select, interpret and respond to mediated information environments — and how artificial intelligence is changing that environment itself. My work sits at the intersection of classic communication theory and the algorithmic, generative systems now mediating attention.
 
-## The problem
-Selective exposure — the tendency to choose information that fits what we already believe — is one of the oldest questions in communication. But the environment has changed: the selector is no longer only a human browsing a newspaper. Algorithms curate, generators produce, and AI mediates both what is available and what we think we chose. Classical models need updating for an age where *exposure is partly generated, not just selected*.
+## Theme 1 — AI-mediated Communication
 
-## The framework I am building
-My agenda extends **Li Xigen's three-element model of selective exposure** by adding two contemporary variables:
+**Research question:** How do artificial intelligence systems transform information production, consumption and human communication?
 
-1. **Generative exposure** — exposure that arises not from selecting existing content but from AI *generating* content in response to the user. The unit of analysis shifts from "what did you pick" to "what was produced for you."
-2. **AI literacy** — the user-side competence that conditions whether generative exposure widens or narrows one's information horizon.
+Keywords: *Generative AI · AI literacy · Human–AI interaction · Algorithmic communication*
 
-## Why it matters
-This reframing connects a classic communication theory to the questions now central in the field (see recent directions in the *Journal of Communication*): how AI reshapes attention, choice, and the public sphere. It also meets my two worlds — the empirical media-effects training from CUHK and the institutional vantage point of university governance.
+This is my long-term direction. I am developing the concept of **generative exposure** — exposure that arises not from selecting existing content but from AI *generating* content in response to the user — and **AI literacy** as the user-side competence that conditions whether generative exposure widens or narrows one's information horizon. It connects communication theory, AI development, education practice and content production. → see [Selected Publications](/docs/publications/).
+
+## Theme 2 — Media Effects and Selective Exposure
+
+**Research question:** How do individuals select, interpret and respond to information environments?
+
+Keywords: *Selective exposure · Framing · Information behavior · Media psychology*
+
+I extend **Li Xigen's three-element model of selective exposure** into the algorithmic age, adding generative exposure and AI literacy as contemporary variables. The aim is a framework for understanding choice and attention when the source is no longer only human. This builds directly on my earlier empirical work on news framing and risk perception.
+
+## Theme 3 — Health and Risk Communication
+
+**Research foundation:** media exposure, perceived efficacy, risk perception, and health communication.
+
+Keywords: *Risk perception · Media exposure · Perceived efficacy · Cross-cultural communication*
+
+My peer-reviewed work here includes studies of vaccine-risk perception in China (*Asian Journal of Communication*, 2021) and news framing of genetically modified food (*International Journal of Communication*, 2020). This section demonstrates the empirical foundation beneath the newer AI-focused work. → see [Selected Publications](/docs/publications/).
 
 ## Current threads
 - Updating the three-element model for algorithmic and generative environments
 - Operationalizing AI literacy as a moderator of generative exposure
-- Translating the international framework to the Chinese context (selective exposure among Chinese audiences / platforms)
+- Translating the international framework to the Chinese context (selective exposure among Chinese audiences and platforms)
