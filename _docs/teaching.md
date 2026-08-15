@@ -1,12 +1,9 @@
 ---
-
 title: "Teaching"
 permalink: /docs/teaching/
 layout: single
 breadcrumbs: false
-
 ---
-
 
 # Teaching
 
