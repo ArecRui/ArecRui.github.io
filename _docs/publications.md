@@ -1,13 +1,10 @@
 ---
-
 title: "Selected Publications"
 permalink: /docs/publications/
 layout: single
 toc: true
 breadcrumbs: false
-
 ---
-
 
 # Selected Publications
 
