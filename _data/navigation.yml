@@ -1,7 +1,13 @@
-# main links links
+# main links
 main:
+  - title: "About"
+    url: /about/
+
   - title: "Research"
     url: /docs/research/
+
+  - title: "Publications"
+    url: /docs/publications/
 
   - title: "Technology"
     url: /docs/tech/
@@ -14,42 +20,3 @@ main:
 
   - title: "Resume"
     url: /docs/resume/
-
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
-
-
-foo1:
-  - title: "1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
