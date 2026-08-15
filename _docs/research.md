@@ -6,8 +6,6 @@ toc: true
 breadcrumbs: false
 ---
 
-# Research
-
 I study how people select, interpret and respond to mediated information environments — and how artificial intelligence is changing that environment itself. My work sits at the intersection of classic communication theory and the algorithmic, generative systems now mediating attention.
 
 ## Theme 1 — AI-mediated Communication
